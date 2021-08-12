@@ -2667,8 +2667,18 @@
                             <div class="container-fluid p-0">
                                 <div class="navbar p-0 pt-3 pb-1">
                                     <div class="d-flex" style="width: 26%;">
-                                        <div class="date-range" style="margin-right: 10px !important; width: 70%;">
-                                            <div style="margin: 6.55%; margin-top: auto; margin-bottom: auto; height: 100%;" class="navbar p-0 fs-14 fw-400">Dec 11, 2021 <img src="./img/our clients/beneo/Arrow - Right.png" /> Jan 11, 2022</div>
+                                        <div class="date-range">
+                                            <div style="margin: 6.55%; margin-top: auto; margin-bottom: auto; height: 100%;" class="navbar p-0 fs-14 fw-400">
+                                                <div style="width: 40%;">
+                                                    <input type="text" class="datepicker" value="Jan 12, 2021" style="width: 100%; height:100%; outline: none; border: 0; cursor: pointer;">
+                                                </div>
+                                                <div style="width: 10%;">
+                                                    <img src="./img/our clients/beneo/Arrow - Right.png" />
+                                                </div>
+                                                <div style="width: 40%;">
+                                                    <input type="text" class="datepicker" value="Dec 23, 2021" style="width: 100%; height: 100%; outline: none; border: 0; cursor: pointer;">
+                                                </div>
+                                            </div>
                                         </div>
                                         <img src="img/our clients/Filter 2.png" style="width: auto; height: fit-content;" class="my-auto mx-auto" />
                                     </div>
@@ -3141,11 +3151,7 @@
                                     <div class="col-sm-6 my-auto">
                                         <div class="tc-grey">Birthday</div>
                                         <br />
-                                        <input
-                                            type="date"
-                                            class="form-control text-black fs-14 bg-white h-35"
-                                            id="birthday"
-                                        />
+                                        <input type="text" value="DD/MM/YYYY" class=" birthday form-control text-black fs-14 bg-white h-35" id="birthday" />
                                     </div>
                                     <div class="col-sm-6">
                                         <div class="tc-grey">Acronym</div>
@@ -3707,6 +3713,44 @@
         <!-- Optional JavaScript -->
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
         <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+
+        
+        <!--Date Picker-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.bundle.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/js/bootstrap-datepicker.min.js"></script>
+
+        <!--Date Picker End-->
+
+        <!--Date Picker-->
+        <script>
+            var startDate = new Date(1991, 1 - 1, 1),
+            endDate = new Date(new Date().getFullYear() - 18, 12 - 1, 31);
+            $(".datepicker").datepicker({
+                autoclose: true,
+                disableTouchKeyboard: true,
+                format: "M dd, yyyy",
+                startDate: startDate,
+                endDate: endDate
+            });
+        </script>
+         <!--Date Picker End-->
+
+         <!--Date Picker-->
+        <script>
+            var startDate = new Date(1991, 1 - 1, 1),
+            endDate = new Date(new Date().getFullYear() - 18, 12 - 1, 31);
+            $(".birthday").datepicker({
+                autoclose: true,
+                disableTouchKeyboard: true,
+                format: "dd/ MM/ yyyy",
+                startDate: startDate,
+                endDate: endDate
+            });
+        </script>
+         <!--Date Picker End-->
+
+         
         <script>
             $(document).ready(function(){
                 $("#permit-sublinks").hide();
