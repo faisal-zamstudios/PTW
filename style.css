@@ -3,49 +3,21 @@
     font-style: normal;
 }
 
-@font-face {
-    font-family: 'Amalfi Coast';
-    font-style: normal;
-    font-weight: 400;
-    src: local('Amalfi Coast'), url('https://fonts.cdnfonts.com/s/30779/Amalfi Coast.woff') format('woff');
-}
-
 .nav-pills .nav-link.active {
     background-color: #ffffff !important;
-}
-
-.side-style {
-    border-right: 1px solid rgba(209, 209, 209, 0.5); 
-    width: 21.2%; 
-}
-
-.side-style nav {
-    width: 100%;
-    margin-top: 12px;
-    padding-left: 10.927%;
-    padding-right: 11.589%;
-}
-
-#tabsJustified {
-    margin-top: 22px;
-    margin-left: 1.149%;
-    margin-right: 0.766%;
 }
 
 #tabsJustified li {
     margin-top: 3px;
 }
-
-#tabsJustified1 li {
-    width: 100%;
+#tabsJustified li:first-child {
+    margin-top: 15px;
 }
-
 #tabsJustified li .cat.active {
     background: #615EFF !important;
-    width: 100%;
+    height: 49px !important;
     border-radius: 10px !important;
 }
-
 #tabsJustified1 li .sub-cat.active, #tabsJustified2 li .sub-cat-sub.active, #tabsJustified3 li .sub-cat-sub.active {
     color: #615EFF !important;
     background: transparent !important;
@@ -69,37 +41,18 @@
 }
 
 .cat {
-    min-height: 49px;
-    display: flex;
-    align-items: center;
-    -webkit-box-pack: start;
-    padding: 12px !important;
-    padding-left: 11.255% !important;
-}
-
-.cat div {
-    font-size: 17px;
+    font-size: 17px; 
     line-height: 20px;
-    height: 100%;
-    align-items: center;
-    margin-left: 4%;
+    padding: 10px !important;
+    padding-left: 18px !important;
 }
 
 .sub-cat {
-    display: flex;
-    align-items: center;
-    -webkit-box-pack: start;
-    margin-left: 5% !important;
-    padding: 10px;
-    padding-left: 11.255%;
-}
-
-.sub-cat div {
+    margin-left: 20px;
     font-size: 15px; 
     line-height: 18px;
-    height: 100%;
-    align-items: center;
-    margin-left: 4%;
+    padding: 10px !important;
+    padding-left: 22px !important;
 }
 
 .sub-cat-sub {
@@ -110,19 +63,21 @@
     padding-left: 24px !important;
 }
 
+.lum-logo {
+    width: 146px; 
+    height: 57px; 
+}
+
 .sbar {
+    height: 42px;
     background: #F0F1F3 !important;
     box-shadow: 0px 4px 84px rgba(0, 0, 0, 0.03);
     border-radius: 10px;
 }
 
-.sbar button {
-    background: #F0F1F3 !important;
-}
-
 .sbar-input {
     text-align: left !important;
-    height: 100% !important;
+    height: 42px;
     background: #F0F1F3 !important;
     border: none;
     outline: none;
@@ -134,54 +89,35 @@
 }
 
 .add-client-btn {
-    width: 254px; 
-    height: 49px;
-    background: #615EFF !important; 
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 16px;
-    border-radius: 9px;
-    margin-left:35px;
-    margin-right:15px;
-    padding-left: 35px;
-}
-
-.add-client-btn1 {
-    width: 270px; 
-    height: 49px;
-    background: #615EFF !important; 
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 16px;
-    border-radius: 9px;
-    margin-left:35px;
-    padding-left: 35px;
-}
-
-.date-range {
-    min-width: 229px; 
+    width: 224px; 
     height: 49px; 
-    border-radius: 10px; 
-    color: #200E32;
-    background: white;
+    background: #615EFF !important; 
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    border-radius: 10px;
+}
+.add-client-btn1 {
+    width: 224px; 
+    height: 49px; 
+    color: #615EFF;
+    background: transparent !important; 
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    border-radius: 10px;
+    border: 2px solid #615EFF;
 }
 
 .box-height-240 {
-    height: 100%;
-}
-
-.three-dots {
-    width: 31px;
-    height: 31px;
+    height: 240px;
 }
 
 .client-text {
     font-weight: 400;
+    font-size: 11px;
+    line-height: 13px;
     margin-top: 20px;
-}
-
-.col-sm-3 {
-    padding: 15px !important;
 }
 
 .fs-11 {
@@ -190,43 +126,27 @@
 }
 
 .fs-12 {
-    font-size: 12px !important;
-    line-height: 14px !important;
+    font-size: 12px;
+    line-height: 14px;
+}
+
+.fs-12-1 {
+    font-size: 15px;
+    line-height: 14px;
 }
 
 .fs-14 {
-    font-size: 14px !important;
-    line-height: 16px !important;
+    font-size: 14px;
+    line-height: 16px;
 }
 
 .fs-15 {
-    font-size: 15px !important;
-    line-height: 17px !important;
-}
-
-.fs-16 {
-    font-size: 16px !important;
-    line-height: 18px !important;
+    font-size: 15px;
 }
 
 .fs-17 {
-    font-size: 17px !important;
-    line-height: 19px !important;
-}
-
-.fs-18 {
-    font-size: 18px;
-    line-height: 20px;
-}
-
-.fs-19 {
-    font-size: 19px;
-    line-height: 21px;
-}
-
-label {
-    margin-bottom: .7rem !important;
-    margin-top: .6rem !important;
+    font-size: 17px;
+    line-height: 19px;
 }
 
 .fw-400 {
@@ -243,6 +163,14 @@ label {
 
 .tc-grey {
     color: rgba(92, 87, 97, 0.83);
+}
+
+.tc-purple{
+    color: #615EFF !important;
+}
+
+.tc-red{
+    color: #E51D1D;
 }
 
 .modal-header {
@@ -272,93 +200,91 @@ label {
 	background-color: rgba(97, 94, 255, 1);
 }
 
-@media (min-width: 1080px) {
-    .modal-dialog {
-        max-width: 573px !important;
-        margin: 2.75rem auto;
-    }
-    
-    .modal-dialog-centered {
-        min-height: calc(100% - (2.75rem * 2));
-    }
-}
-
-@media (min-width: 700px) {
-    .modal-dialog {
-        max-width: 500px;
-        margin: 2.75rem auto;
-    }
-
-    .modal-dialog-centered {
-        min-height: calc(100% - (2.75rem * 2));
-    }
-}
-
-.modal-body {
-    max-height: 492px;
-}
-
-.table td, .table th {
-    border-top:none !important;
-}
-
 #clients div div div div ul li {
     width: 100%;
 }
-
+.table td, .table th {
+    border-top:none !important;
+}
+#clients div div div div ul li {
+    width: 100%;
+}
 .tbl-csv td {
     vertical-align: middle;
 }
-
 .tbl-csv {
     min-width: 975px;
+    text-align: initial;
 }
+.tbl-csv thead {
+    background-color: #ffffff;
+}
+
+
 
 .tbl-role td{
     vertical-align: middle;
     text-align: center;
-    border-bottom: 1px solid #dee2e6!important;
+    border-bottom: 1px solid #DEE2E6!important;
 }
-
 .tbl-role thead td{
     border-bottom: none !important;
 }
-
 .tbl-role td:first-child {
     background: transparent;
     text-align: left !important;
     margin-left: 30px;
     border-bottom: none !important;
 }
-
 .tbl thead tr td {
     padding-left: 25px;
 }
-
 .tbl tbody tr td {
     padding: 25px;
 }
-
 .table tbody td {
-    background-color: white;
+    background-color: transparent;
 }
-
 .h-35 {
-    height: 35px;
+    height: 35px !important;
 }
 
 .dropdown-menu li div label {
+    vertical-align: middle !important;
     margin-left: 5px;
-    margin-top: 7px !important;
-    margin-bottom: 7px !important;
 }
 
 .dropdown-menu.show {
-    top:40px !important;
-    height: 200px;
+    top:30px !important;
+    height: 180px;
     border-radius: 10px;
-    border: none;
 }
+
+.drop1.show {
+    top:0px !important;
+    height: 100px;
+    border-radius: 10px;
+}
+
+.modal-content {
+    max-height: 676px;
+    width: 573px;
+}
+
+.checkbox-primary {
+    width: 18.5px !important;
+    height: 18.5px !important;
+}
+.checkbox-primary:checked:before {
+    color: #615EFF !important;
+    top: 0px !important;
+    left: 3px !important;
+    font-size: 11px !important;
+}
+.checkbox-primary:checked {
+    border: 1.5px solid #615EFF !important;
+}
+
 
 .checkbox {
     position: relative;
@@ -378,10 +304,17 @@ label {
     cursor: pointer;
 }
 
+.checkbox-circle {
+    border-radius: 50% !important;
+    width: 20px !important;
+    height: 20px !important;
+}
+
 .checkbox:checked {
     border: 1px solid #44B328;
-    background-color: transparent;
+    background-color: #fff;
 }
+
 
 .checkbox:checked:before {
    position: absolute;
@@ -396,28 +329,64 @@ label {
    font-weight: 800;
 }
 
-.checkbox-primary {
-    width: 18px !important;
-    height: 18px !important;
+
+
+.checkbox-circle:checked:before {
+    left: 3.5px !important;
+    top: 1px !important;
+    font-size: 12px !important;
+ }
+
+
+
+
+ 
+.checkbox1 {
+    position: relative;
+    width: 15px;
+    height: 15px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -o-appearance: none;
+    appearance: none;
+    background: transparent;
+    border: 1px solid hsl(0, 0%, 82%);
+    border-radius: 5px;
+    margin: 0;
+    outline: none;
+    transition: 0.5s ease;
+    opacity: 0.8;
+    cursor: pointer;
 }
 
-.checkbox-primary:checked:before {
-    color: #615EFF !important;
-    top: 1.5px !important;
-    left: 2.5px !important;
-}
-
-.checkbox-primary:checked {
-    border: 1px solid #615EFF !important;
-}
-
-.checkbox-circle {
+.checkbox1-circle {
     border-radius: 50% !important;
     width: 20px !important;
     height: 20px !important;
 }
 
-.checkbox-circle:checked:before {
+.checkbox1:checked {
+    border: 1px solid #615EFF;
+    background-color: #fff;
+}
+
+
+.checkbox1:checked:before {
+   position: absolute;
+   left: 1.5px;
+   top: -1.5px;
+   display: block;
+   content: '\2713';
+   text-align: center;
+   color: #615EFF;
+   font-family: Arial;
+   font-size: 12px;
+   font-weight: 800;
+}
+
+
+
+.checkbox1-circle:checked:before {
     left: 3.5px !important;
     top: 1px !important;
     font-size: 12px !important;
@@ -428,8 +397,8 @@ label {
 .switch {
     position: relative;
     display: inline-block;
-    width: 44px;
-    height: 25px;
+    width: 35px;
+    height: 20px;
 }
 
 /* Hide default HTML checkbox */
@@ -455,8 +424,8 @@ label {
 .slider:before {
     position: absolute;
     content: "";
-    height: 21px;
-    width: 21px;
+    height: 16px;
+    width: 16px;
     left: 2px;
     bottom: 2px;
     background-color: white;
@@ -473,9 +442,9 @@ input:focus + .slider {
 }
 
 input:checked + .slider:before {
-    -webkit-transform: translateX(19px);
-    -ms-transform: translateX(19px);
-    transform: translateX(19px);
+    -webkit-transform: translateX(15px);
+    -ms-transform: translateX(15px);
+    transform: translateX(15px);
 }
 
 /* Rounded sliders */
@@ -488,7 +457,7 @@ input:checked + .slider:before {
 }
 
 .drag-drop {
-    background: rgba(97, 94, 255, 0.05);
+    background:rgba(97, 94, 255, 0.05);
     border: 1.5px dashed rgba(97, 94, 255, 0.4);
     border-radius: 15px;
     position: relative;
@@ -504,133 +473,41 @@ input:checked + .slider:before {
     opacity: 0;
 }
 
-.daterange {
-    display: contents !important;
-    content: "Dec 11, 2021" !important;
-    initial-value: "Dec 11, 2021" !important;
-}
 
-.link-hover div div:hover {
-    color: #615EFF;
-}
-
-div.link-hover div div a button:hover {
-    border: 2px solid #615EFF !important;
-    box-shadow: 0px 4px 84px rgba(0, 0, 0, 0.03);
-} 
-
-.pd-inp {
-    padding: 3px !important;
-    padding-left: 6px !important;
-    height: 38px !important;
-}
-
-.bton{
-	width: 114px;
-    height: 45px;
-    background: #615EFF;
-    border-radius:9px;
-    color: #FFFFFF;
-    font-size: 14px;
-    text-align: left;
-}
-
-.drag-drop1 {
-    background: transparent;
-    border: 1px solid rgba(196, 196, 196, 0.53);
-    box-sizing: border-box;
-    border-radius: 8px;
-    position: relative;
-}
-
-.add-sign {
-    height: 127px; 
-    width:100%; 
-    display: grid; 
-    padding: 12px;
-}
-
-.btoon{
-    border: 2px solid black;
-    background-color: transparent;
-    color: black;
-    padding: 14px 28px;
-    cursor: pointer;
-}
-	
-.info {
-    border-color: #615EFF;
-    color:#615EFF;
-    border-radius: 9px;
-    background-color: transparent !important;
-    font-size:11px;
-    display:inline-block;
-    height:40px;
-    width:100%;
-}
 
 @media screen and (max-width: 1450px) {
     .box-height-240 {
         height: 220px;
     }
-
     .fs-11 {
         font-size: 10px !important;
         line-height: 11.5px !important;
     }
-    
-    .fs-12 {
-        font-size: 11px !important;
-        line-height: 13px !important;
-    }
-    
-    .fs-14 {
-        font-size: 13px !important;
-        line-height: 15px !important;
-    }
-    
-    .fs-15 {
-        font-size: 14px !important;
-        line-height: 16px !important;
-    }
-    
-    .fs-16 {
-        font-size: 15px !important;
-        line-height: 17px !important;
-    }
-    
     .fs-17 {
-        font-size: 16px !important;
-        line-height: 18px !important;
+        font-size: 16px;
+        line-height: 18px;
     }
 
-    .fs-19 {
-        font-size: 18px;
-        line-height: 20px;
-    }
 
-    .sub-cat div {
-        font-size: 12px; 
-        line-height: 14px;
+    .sub-cat {
+        font-size: 13px; 
+        line-height: 16px;
+        padding: 10px !important;
+        padding-left: 20px !important;
     }
-    
+        
     .sub-cat-sub {
         font-size: 12px; 
         line-height: 14px;
     }
 
     .add-client-btn {
-        width: 230px;
-        margin-left: 30px;
-        padding-left: 20px;
-    }
-
-    .add-client-btn1 {
-        width: 260px;
-        margin-left: 30px;
+        width: 210px;
     }
 
     .client-text {
+        font-size: 10px;
+        line-height: 12px;
         margin-top: 16px;
     }
 
@@ -650,61 +527,34 @@ div.link-hover div div a button:hover {
         padding-right: 15px !important;
     }
     
-    .three-dots {
-        width: 27px;
-        height: 27px;
-    }
-
 }
 
 @media screen and (max-width: 1350px) {
     .client-text {
+        font-size: 9.5px;
+        line-height: 11px;
         margin-top: 14px;
     }
-    
-    .add-client-btn {
-        width: 190px;
-    }
-
-    .p-4 {
-        padding: 16px !important;
-    }
-
-    .fs-19 {
-        font-size: 17px;
-        line-height: 19px;
-    }
-
 }
 
 @media screen and (max-width: 1080px) {
-
-    .container-fluid .drag-drop1 {
-        height: 126px !important;
-    }
-    
-    .drag-drop1.add-sign {
-        height: 80px !important;
-        padding: 6px !important;
+    .box-height-240 {
+        height: 200px;
     }
 
     #tabsJustified li {
         margin-top: 2px;
     }
     
-    .cat div {
+    .cat {
         font-size: 13px; 
-        line-height: 16px;
-    }
+        line-height: 15px;
+    }  
 
     .sub-cat {
-        padding: 8px;
-        padding-left: 10%;
-    }
-
-    .sub-cat div {
-        font-size: 9px; 
-        line-height: 12px;
+        margin-left: 09px;
+        font-size: 11px; 
+        line-height: 13px;
     }
      
     .sub-cat-sub {
@@ -714,46 +564,36 @@ div.link-hover div div a button:hover {
         padding-left: 22px !important;
     }
 
-    .modal-body{
-        height: 350px;
+    .side-style {
+        padding-left: 10px;
     }
 
     .add-client-btn {
-        width: 160px; 
+        width: 190px; 
+        height: 40px; 
+        margin: 10px;
         font-size: 12px;
         line-height: 14px;
-        margin-left: 15px;
-        padding-left: 20px;
-        margin-right: 5px;
-    }
-
-    .add-client-btn1 {
-        width: 200px; 
-        font-size: 12px;
-        line-height: 14px;
-        margin-left: 20px;
-        padding-left: 20px;
-        margin-right: 5px;
-    }
-
-    .date-range {
-        min-width: 200px;
     }
 
     .client-text {
+        font-size: 7.5px;
+        line-height: 9px;
         margin-top: 10px;
     }
 
     .col-sm-3 {
         padding: 05px !important;
     }
-    
-    .p-3 {
-        padding: 12px !important;
-    }
 
-    .p-4 {
-        padding: 12px !important;
+    .pd-inp {
+        padding: 3px !important;
+        padding-left: 6px !important;
+        height: 31px !important;
+    }
+    .pd-sel {
+        padding: 2px !important;
+        height: 30px !important;
     }
 
     .fs-11 {
@@ -762,98 +602,78 @@ div.link-hover div div a button:hover {
     }
     
     .fs-12 {
-        font-size: 10px !important;
-        line-height: 12px !important;
+        font-size: 10px;
+        line-height: 12px;
     }    
 
     .fs-14 {
+        font-size: 12px;
+        line-height: 14px;
+    }
+
+    .fs-15{
         font-size: 12px !important;
-        line-height: 14px !important;
     }
     
-    .fs-15 {
-        font-size: 13px !important;
-        line-height: 15px !important;
-    }
-    
-    .fs-16 {
-        font-size: 14px !important;
-        line-height: 16px !important;
-    }
-
     .fs-17 {
-        font-size: 15px !important;
-        line-height: 17px !important;
-    }
-
-    .fs-18 {
-        font-size: 16px !important;
-        line-height: 18px !important;
-    }
-
-    /* The switch - the box around the slider */
-    .switch {
-        width: 34px;
-        height: 20px;
-    }
-
-    .slider:before {
-        position: absolute;
-        content: "";
-        height: 16px;
-        width: 16px;
-        left: 2px;
-        bottom: 2px;
-    }
-
-    input:checked + .slider:before {
-        -webkit-transform: translateX(14px);
-        -ms-transform: translateX(14px);
-        transform: translateX(14px);
-    }
-
-    .pd-inp {
-        padding: 3px !important;
-        padding-left: 6px !important;
-        height: 31px !important;
-    }
-
-    .bton {
-        width: 80px !important;
-        height: 30px !important;
-    }
-
-    .pd-sel {
-        padding: 2px !important;
-        height: 30px !important;
-    }
-
-    .three-dots {
-        width: 24px;
-        height: 24px;
+        font-size: 15px;
+        line-height: 17px;
     }
 
 }
 
 @media screen and (max-width: 890px) {
-    
-    .side-style nav {
-        padding-left: 5%;
-        padding-right: 5%;
-    }    
-
-    .date-range {
-        min-width: 165px;
-    }
-
-    .cat div {
-        font-size: 12px; 
+    .cat {
+        font-size: 13px; 
         line-height: 15px;
+        padding: 10px !important;
+    }
+    .pd-inp {
+        padding: 2px !important;
+        padding-left: 4px !important;
+        height: 26px !important;
+    }
+    .pd-sel {
+        padding: 0px !important;
+        height: 25px !important;
     }
     
+    #tabsJustified li {
+        margin-top: 0px;
+    }
+    
+    .side-style {
+        padding-left: 0px !important;
+    }
+    #tabsJustified li .cat.active {
+        padding-right: 15px !important;
+        height: 40px !important;
+    }
+    #tabsJustified li {
+        margin-left: 0px;
+        margin-top: 05px;
+    }
+
+    .checkbox-primary {
+        width: 14.5px !important;
+        height: 14.5px !important;
+    }
+    .checkbox-primary:checked:before {
+        color: #615EFF !important;
+        top: 0px !important;
+        left: 2px !important;
+        font-size: 09px !important;
+    }
+    .checkbox-primary:checked {
+        border: 1px solid #615EFF !important;
+    }
+
     .sub-cat {
-        padding: 7px;
-        padding-left: 8%;
+        margin-left: 06px;
+        font-size: 10px; 
+        line-height: 12px;
+        padding: 10px !important;
+        padding-left: 12px !important;
     }
     
     .sub-cat-sub {
@@ -861,50 +681,21 @@ div.link-hover div div a button:hover {
         font-size: 10px; 
         line-height: 12px;
         padding: 5px !important;
-        padding-left: 20px !important;
+        padding-left: 12px !important;
     }
 
-    .h-35 {
-        height: 30px !important;
+    .img-90{
+        height: 90px !important;
+        width: 90px !important;
     }
     
-    #tabsJustified {
-        margin-top: 8px;
-    }
-
-    #tabsJustified li {
-        margin-top: 0px;
-    }
-    
-    #tabsJustified li {
-        margin-left: 0px;
-        margin-top: 5px;
-    }
 
     .add-client-btn {
-        width: 120px;
+        width: 155px; 
+        height: 40px; 
+        margin: 10px;
         font-size: 10px;
         line-height: 12px;
-        margin-left: 15px;
-        margin-right: 4px;
-        padding-left: 5px;
-    }
-
-    .add-client-btn img {
-        margin-left: 8px !important;
-    }
-
-    .add-client-btn1 {
-        width: 155px;
-        font-size: 9px;
-        line-height: 11px;
-        margin-left: 8px;
-        margin-right: 4px;
-        padding-left: 5px;
-    }
-
-    .add-client-btn1 img {
-        margin-left: 8px !important;
     }
 
     .sbar {
@@ -912,12 +703,13 @@ div.link-hover div div a button:hover {
         margin-left: 15px !important;
     }
     
-    .three-dots {
-        width: 20px;
-        height: 20px;
+    .sbar-input {
+        height: 32px;
     }
-
+    
     .client-text {
+        font-size: 07.5px;
+        line-height: 9.5px;
         margin-top: 5px;
     }
 
@@ -925,71 +717,45 @@ div.link-hover div div a button:hover {
         height: 180px;
     }
 
-    .modal-body{
-        height: 310px;
+    #set-wid{
+        width: 170px !important;
     }
 
-    .modal-content {
-        width: 450px !important;
-    }
-
-    .modal-dialog{
-        width: 420px !important;
+    .set-img{
+        height: 30px !important;
+        width: 30px !important;
     }
 
     .p-3 {
         padding: 10px !important;
     }
-
-    .pd-inp {
-        padding: 2px !important;
-        padding-left: 4px !important;
-        height: 26px !important;
-    }
-
-    .pd-sel {
-        padding: 0px !important;
-        height: 25px !important;
-    }
-
     .fs-11 {
         font-size: 7px !important;
         line-height: 9px !important;
     }
     
     .fs-12 {
-        font-size: 8px !important;
-        line-height: 10px !important;
-    }    
+        font-size: 09px;
+        line-height: 11px;
+    }   
+    
+    .fs-12-1 {
+        font-size: 09px;
+        line-height: 11px;
+    }
 
     .fs-14 {
+        font-size: 11px;
+        line-height: 13px;
+    }
+
+    .fs-15{
         font-size: 10px !important;
-        line-height: 12px !important;
     }
     
-    .fs-15 {
-        font-size: 11px !important;
-        line-height: 13px !important;
-    }
-    
-    .fs-16 {
-        font-size: 12px !important;
-        line-height: 14px !important;
-    }
-
     .fs-17 {
-        font-size: 13px !important;
-        line-height: 15px !important;
-    }
-
-    .fs-18 {
-        font-size: 14px !important;
-        line-height: 16px !important;
-    }
-
-    .fs-19 {
-        font-size: 12px;
-        line-height: 17px;
+        font-size: 13px;
+        line-height: 15px;
     }
 
     .tbl thead tr td {
@@ -1000,28 +766,82 @@ div.link-hover div div a button:hover {
         padding: 15px;
     }
 
-    .checkbox-primary {
-        width: 14px !important;
-        height: 14px !important;
+    .set4{
+        padding-right: 12px !important;
     }
 
-    .checkbox-primary:checked:before {
-        top: 0px !important;
-        left: 0px !important;
+    .drag-drop1{
+        height: 127px !important;
+    }
+    .drag-drop2{
+        height: 90px !important;
     }
 
-    .bton {
-        width: 67px !important;
-        height: 26px !important;
+    .main-row{
+        height: 40px !important;
     }
 
-    label {
-        margin-bottom: .5rem !important;
-        margin-top: 0 !important;
+    .bton{
+        width: 75px !important;
+        height: 35px !important;
+        background: #615EFF;
+        color: #200E32;
+        border-radius:9px;
+        color: #FFFFFF;
+        font-size: 14px;
     }
 
-    .pb-4 {
-        padding-bottom: 0.8rem !important;
-    }
 
 }
+
+
+.red{
+	opacity: 0.5;
+	}
+
+
+
+    .bton{
+        width: 114px;
+        height: 45px;
+        background: #615EFF;
+        color: #200E32;
+        border-radius:9px;
+        color: #FFFFFF;
+        font-size: 14px;
+    }
+    
+    .drag-drop1 {
+        background: transparent;
+        border: 1px solid rgba(196, 196, 196, 0.53);
+        box-sizing: border-box;
+        border-radius: 8px;
+        position: relative;
+    }
+    .drag-drop2 {
+        background: transparent;
+        border: 1px solid rgba(196, 196, 196, 0.53);
+        box-sizing: border-box;
+        border-radius: 8px;
+        position: relative;
+    }
+    
+    .btoon{
+        border: 2px solid black;
+        background-color: transparent;
+        color: black;
+        padding: 14px 28px;
+        cursor: pointer;
+    }
+        
+    .info {
+        border-color: #615EFF;
+        color:#615EFF;
+        border-radius: 9px;
+        font-size:11px;
+        display:inline-block;
+        height:40px;
+        width:100%;
+        background-color: transparent;
+    }
+    
