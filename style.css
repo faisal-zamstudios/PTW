@@ -10,65 +10,61 @@
     src: local('Amalfi Coast'), url('https://fonts.cdnfonts.com/s/30779/Amalfi Coast.woff') format('woff');
 }
 
+.text-font-normal {
+    font-weight: normal;
+    color: #200E32;
+}
+
 .nav-pills .nav-link.active {
     background-color: #ffffff !important;
 }
 
-.side-style {
+.sup-side-style {
     border-right: 1px solid rgba(209, 209, 209, 0.5); 
     width: 21.2%; 
 }
 
-.side-style nav {
+.sup-side-style nav {
     width: 100%;
     margin-top: 12px;
     padding-left: 10.927%;
     padding-right: 11.589%;
 }
 
-#tabsJustified {
+#sup-tabsJustified {
     margin-top: 22px;
     margin-left: 1.149%;
     margin-right: 0.766%;
 }
 
-#tabsJustified li {
+#sup-tabsJustified li {
     margin-top: 3px;
 }
 
-#tabsJustified1 li {
+#sup-tabsJustified1 li {
     width: 100%;
 }
 
-#tabsJustified li .cat.active {
+#sup-tabsJustified li .sup-cat.active {
     background: #615EFF !important;
     width: 100%;
     border-radius: 10px !important;
 }
 
-#tabsJustified1 li .sub-cat.active, #tabsJustified2 li .sub-cat-sub.active, #tabsJustified3 li .sub-cat-sub.active {
+#sup-tabsJustified1 li .sup-sub-cat.active, #sup-tabsJustified2 li .sup-sub-cat-sub.active, #sup-tabsJustified3 li .sup-sub-cat-sub.active {
     color: #615EFF !important;
     background: transparent !important;
 }
 
-#tabsJustified li a.active .black-image {
+#sup-tabsJustified li a.active .black-image {
     display: none;
 }
 
-#tabsJustified li a.active .white-image {
+#sup-tabsJustified li a.active .white-image {
     display:initial !important;
 }
 
-.text-font-normal {
-    font-weight: normal;
-    color: #200E32;
-}
-
-.text-font-500 {
-    font-weight: 500;
-}
-
-.cat {
+.sup-cat {
     min-height: 49px;
     display: flex;
     align-items: center;
@@ -77,7 +73,7 @@
     padding-left: 11.255% !important;
 }
 
-.cat div {
+.sup-cat div {
     font-size: 17px;
     line-height: 20px;
     height: 100%;
@@ -85,7 +81,7 @@
     margin-left: 4%;
 }
 
-.sub-cat {
+.sup-sub-cat {
     display: flex;
     align-items: center;
     -webkit-box-pack: start;
@@ -94,7 +90,7 @@
     padding-left: 11.255%;
 }
 
-.sub-cat div {
+.sup-sub-cat div {
     font-size: 15px; 
     line-height: 18px;
     height: 100%;
@@ -102,7 +98,7 @@
     margin-left: 4%;
 }
 
-.sub-cat-sub {
+.sup-sub-cat-sub {
     margin-left: 55px;
     font-size: 13px; 
     line-height: 15px;
@@ -110,17 +106,17 @@
     padding-left: 24px !important;
 }
 
-.sbar {
+.sup-sbar {
     background: #F0F1F3 !important;
     box-shadow: 0px 4px 84px rgba(0, 0, 0, 0.03);
     border-radius: 10px;
 }
 
-.sbar button {
+.sup-sbar button {
     background: #F0F1F3 !important;
 }
 
-.sbar-input {
+.sup-sbar-input {
     text-align: left !important;
     height: 100% !important;
     background: #F0F1F3 !important;
@@ -129,11 +125,11 @@
     border-radius: 10px;
 }
 
-.sbar-input::placeholder {
+.sup-sbar-input::placeholder {
     color: #B7B2BD;
 }
 
-.add-client-btn {
+.sup-add-client-btn {
     width: 254px; 
     height: 49px;
     background: #615EFF !important; 
@@ -146,7 +142,7 @@
     padding-left: 35px;
 }
 
-.add-client-btn1 {
+.sup-add-client-btn1 {
     width: 270px; 
     height: 49px;
     background: #615EFF !important; 
@@ -158,7 +154,7 @@
     padding-left: 35px;
 }
 
-.date-range {
+.sup-date-range {
     min-width: 229px; 
     height: 49px; 
     border-radius: 10px; 
@@ -166,21 +162,21 @@
     background: white;
 }
 
-.box-height-240 {
+.sup-box-height-240 {
     height: 100%;
 }
 
-.three-dots {
+.sup-three-dots {
     width: 31px;
     height: 31px;
 }
 
-.client-text {
+.sup-client-text {
     font-weight: 400;
     margin-top: 20px;
 }
 
-.col-sm-3 {
+.col-span-sm-3 {
     padding: 15px !important;
 }
 
@@ -245,7 +241,7 @@ label {
     color: rgba(92, 87, 97, 0.83);
 }
 
-.modal-header {
+.sup-modal-header {
     border-bottom: none !important;
     border-radius: 15px;
 }
@@ -273,36 +269,36 @@ label {
 }
 
 @media (min-width: 1080px) {
-    .modal-dialog {
+    .modal-dialog-width {
         max-width: 573px !important;
         margin: 2.75rem auto;
     }
     
-    .modal-dialog-centered {
+    .modal-dialog-centered-height {
         min-height: calc(100% - (2.75rem * 2));
     }
 }
 
 @media (min-width: 700px) {
-    .modal-dialog {
+    .modal-dialog-width {
         max-width: 500px;
         margin: 2.75rem auto;
     }
 
-    .modal-dialog-centered {
+    .modal-dialog-centered-height {
         min-height: calc(100% - (2.75rem * 2));
     }
 }
 
-.modal-body {
+.modal-body-height {
     max-height: 492px;
 }
 
-.table td, .table th {
-    border-top:none !important;
+.table td {
+    border-top: none !important;
 }
 
-#clients div div div div ul li {
+#sup-clients div div div div ul li {
     width: 100%;
 }
 
@@ -312,6 +308,26 @@ label {
 
 .tbl-csv {
     min-width: 975px;
+}
+
+.tbl-csv tbody tr:first-child td:first-child {
+    border-top-left-radius: 10px !important;
+}
+
+.tbl-csv tbody tr:last-child td:first-child {
+    border-bottom-left-radius: 10px !important;
+}
+
+.tbl-csv tbody tr:first-child td:last-child {
+    border-top-right-radius: 10px !important;
+}
+
+.tbl-csv tbody tr:last-child td:last-child {
+    border-bottom-right-radius: 10px !important;
+}
+
+.tbl-csv tbody tr:last-child {
+    border-bottom: none !important;
 }
 
 .tbl-role td{
@@ -347,14 +363,14 @@ label {
     height: 35px;
 }
 
-.dropdown-menu li div label {
+.sup-dropdown-menu li div label {
     margin-left: 5px;
     margin-top: 7px !important;
     margin-bottom: 7px !important;
 }
 
-.dropdown-menu.show {
-    top:40px !important;
+.sup-dropdown-menu.show {
+    top: 40px !important;
     height: 200px;
     border-radius: 10px;
     border: none;
@@ -487,14 +503,14 @@ input:checked + .slider:before {
     border-radius: 50%;
 }
 
-.drag-drop {
+.sup-drag-drop {
     background: rgba(97, 94, 255, 0.05);
     border: 1.5px dashed rgba(97, 94, 255, 0.4);
     border-radius: 15px;
     position: relative;
 }
 
-.drag-file-input {
+.sup-drag-file-input {
     position: absolute;
     left: 0;
     top: 0;
@@ -502,12 +518,6 @@ input:checked + .slider:before {
     width: 100%;
     cursor: pointer;
     opacity: 0;
-}
-
-.daterange {
-    display: contents !important;
-    content: "Dec 11, 2021" !important;
-    initial-value: "Dec 11, 2021" !important;
 }
 
 .link-hover div div:hover {
@@ -525,7 +535,7 @@ div.link-hover div div a button:hover {
     height: 38px !important;
 }
 
-.bton{
+.sup-bton {
 	width: 114px;
     height: 45px;
     background: #615EFF;
@@ -535,7 +545,7 @@ div.link-hover div div a button:hover {
     text-align: left;
 }
 
-.drag-drop1 {
+.sup-drag-drop1 {
     background: transparent;
     border: 1px solid rgba(196, 196, 196, 0.53);
     box-sizing: border-box;
@@ -543,22 +553,14 @@ div.link-hover div div a button:hover {
     position: relative;
 }
 
-.add-sign {
+.sup-add-sign {
     height: 127px; 
     width:100%; 
     display: grid; 
     padding: 12px;
 }
 
-.btoon{
-    border: 2px solid black;
-    background-color: transparent;
-    color: black;
-    padding: 14px 28px;
-    cursor: pointer;
-}
-	
-.info {
+.sup-info {
     border-color: #615EFF;
     color:#615EFF;
     border-radius: 9px;
@@ -570,7 +572,7 @@ div.link-hover div div a button:hover {
 }
 
 @media screen and (max-width: 1450px) {
-    .box-height-240 {
+    .sup-box-height-240 {
         height: 220px;
     }
 
@@ -609,48 +611,48 @@ div.link-hover div div a button:hover {
         line-height: 20px;
     }
 
-    .sub-cat div {
+    .sup-sub-cat div {
         font-size: 12px; 
         line-height: 14px;
     }
     
-    .sub-cat-sub {
+    .sup-sub-cat-sub {
         font-size: 12px; 
         line-height: 14px;
     }
 
-    .add-client-btn {
+    .sup-add-client-btn {
         width: 230px;
         margin-left: 30px;
         padding-left: 20px;
     }
 
-    .add-client-btn1 {
+    .sup-add-client-btn1 {
         width: 260px;
         margin-left: 30px;
     }
 
-    .client-text {
+    .sup-client-text {
         margin-top: 16px;
     }
 
-    .pl-5 {
+    .custom-pl-5 {
         padding-left: 25px !important;
     }
     
-    .mr-5 {
+    .custom-mr-5 {
         margin-right: 15px !important;
     }
     
-    .pl-4 {
+    .custom-pl-4 {
         padding-left: 15px !important;
     }
     
-    .pr-4 {
+    .custom-pr-4 {
         padding-right: 15px !important;
     }
     
-    .three-dots {
+    .sup-three-dots {
         width: 27px;
         height: 27px;
     }
@@ -658,15 +660,15 @@ div.link-hover div div a button:hover {
 }
 
 @media screen and (max-width: 1350px) {
-    .client-text {
+    .sup-client-text {
         margin-top: 14px;
     }
     
-    .add-client-btn {
+    .sup-add-client-btn {
         width: 190px;
     }
 
-    .p-4 {
+    .padding-4 {
         padding: 16px !important;
     }
 
@@ -679,46 +681,46 @@ div.link-hover div div a button:hover {
 
 @media screen and (max-width: 1080px) {
 
-    .container-fluid .drag-drop1 {
+    .container-fluid .sup-drag-drop1 {
         height: 126px !important;
     }
     
-    .drag-drop1.add-sign {
+    .sup-drag-drop1.sup-add-sign {
         height: 80px !important;
         padding: 6px !important;
     }
 
-    #tabsJustified li {
+    #sup-tabsJustified li {
         margin-top: 2px;
     }
     
-    .cat div {
+    .sup-cat div {
         font-size: 13px; 
         line-height: 16px;
     }
 
-    .sub-cat {
+    .sup-sub-cat {
         padding: 8px;
         padding-left: 10%;
     }
 
-    .sub-cat div {
+    .sup-sub-cat div {
         font-size: 9px; 
         line-height: 12px;
     }
      
-    .sub-cat-sub {
+    .sup-sub-cat-sub {
         margin-left: 24px;
         font-size: 12px; 
         line-height: 14px;
         padding-left: 22px !important;
     }
 
-    .modal-body{
+    .modal-body-height {
         height: 350px;
     }
 
-    .add-client-btn {
+    .sup-add-client-btn {
         width: 160px; 
         font-size: 12px;
         line-height: 14px;
@@ -727,7 +729,7 @@ div.link-hover div div a button:hover {
         margin-right: 5px;
     }
 
-    .add-client-btn1 {
+    .sup-add-client-btn1 {
         width: 200px; 
         font-size: 12px;
         line-height: 14px;
@@ -736,23 +738,23 @@ div.link-hover div div a button:hover {
         margin-right: 5px;
     }
 
-    .date-range {
+    .sup-date-range {
         min-width: 200px;
     }
 
-    .client-text {
+    .sup-client-text {
         margin-top: 10px;
     }
 
-    .col-sm-3 {
+    .col-span-sm-3 {
         padding: 05px !important;
     }
     
-    .p-3 {
+    .padding-3 {
         padding: 12px !important;
     }
 
-    .p-4 {
+    .padding-4 {
         padding: 12px !important;
     }
 
@@ -818,7 +820,7 @@ div.link-hover div div a button:hover {
         height: 31px !important;
     }
 
-    .bton {
+    .sup-bton {
         width: 80px !important;
         height: 30px !important;
     }
@@ -828,7 +830,7 @@ div.link-hover div div a button:hover {
         height: 30px !important;
     }
 
-    .three-dots {
+    .sup-three-dots {
         width: 24px;
         height: 24px;
     }
@@ -837,26 +839,26 @@ div.link-hover div div a button:hover {
 
 @media screen and (max-width: 890px) {
     
-    .side-style nav {
+    .sup-side-style nav {
         padding-left: 5%;
         padding-right: 5%;
     }    
 
-    .date-range {
-        min-width: 165px;
+    .sup-date-range {
+        min-width: 175px;
     }
 
-    .cat div {
+    .sup-cat div {
         font-size: 12px; 
         line-height: 15px;
     }
     
-    .sub-cat {
+    .sup-sub-cat {
         padding: 7px;
         padding-left: 8%;
     }
     
-    .sub-cat-sub {
+    .sup-sub-cat-sub {
         margin-left: 24px;
         font-size: 10px; 
         line-height: 12px;
@@ -868,20 +870,20 @@ div.link-hover div div a button:hover {
         height: 30px !important;
     }
     
-    #tabsJustified {
+    #sup-tabsJustified {
         margin-top: 8px;
     }
 
-    #tabsJustified li {
+    #sup-tabsJustified li {
         margin-top: 0px;
     }
     
-    #tabsJustified li {
+    #sup-tabsJustified li {
         margin-left: 0px;
         margin-top: 5px;
     }
 
-    .add-client-btn {
+    .sup-add-client-btn {
         width: 120px;
         font-size: 10px;
         line-height: 12px;
@@ -890,11 +892,11 @@ div.link-hover div div a button:hover {
         padding-left: 5px;
     }
 
-    .add-client-btn img {
+    .sup-add-client-btn img {
         margin-left: 8px !important;
     }
 
-    .add-client-btn1 {
+    .sup-add-client-btn1 {
         width: 155px;
         font-size: 9px;
         line-height: 11px;
@@ -903,41 +905,41 @@ div.link-hover div div a button:hover {
         padding-left: 5px;
     }
 
-    .add-client-btn1 img {
+    .sup-add-client-btn1 img {
         margin-left: 8px !important;
     }
 
-    .sbar {
+    .sup-sbar {
         height: 32px;
         margin-left: 15px !important;
     }
     
-    .three-dots {
+    .sup-three-dots {
         width: 20px;
         height: 20px;
     }
 
-    .client-text {
+    .sup-client-text {
         margin-top: 5px;
     }
 
-    .box-height-240 {
+    .sup-box-height-240 {
         height: 180px;
     }
 
-    .modal-body{
+    .modal-body-height {
         height: 310px;
     }
 
-    .modal-content {
+    .modal-content-width {
         width: 450px !important;
     }
 
-    .modal-dialog{
+    .modal-dialog-width {
         width: 420px !important;
     }
 
-    .p-3 {
+    .padding-3 {
         padding: 10px !important;
     }
 
@@ -1010,7 +1012,7 @@ div.link-hover div div a button:hover {
         left: 0px !important;
     }
 
-    .bton {
+    .sup-bton {
         width: 67px !important;
         height: 26px !important;
     }
@@ -1018,10 +1020,6 @@ div.link-hover div div a button:hover {
     label {
         margin-bottom: .5rem !important;
         margin-top: 0 !important;
-    }
-
-    .pb-4 {
-        padding-bottom: 0.8rem !important;
     }
 
 }
