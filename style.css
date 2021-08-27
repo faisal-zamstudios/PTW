@@ -330,7 +330,11 @@ label {
     border-bottom: none !important;
 }
 
-.tbl-role td{
+.tbl-role {
+    min-width: 975px;
+}
+
+.tbl-role td {
     vertical-align: middle;
     text-align: center;
     border-bottom: 1px solid #dee2e6!important;
