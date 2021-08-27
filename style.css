@@ -1,74 +1,28 @@
-* {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-style: normal;
-}
-
-a:-webkit-any-link {
-    text-decoration: none !important;
-}
-
-@font-face {
-    font-family: 'Amalfi Coast';
-    font-style: normal;
-    font-weight: 400;
-    src: local('Amalfi Coast'), url('https://fonts.cdnfonts.com/s/30779/Amalfi Coast.woff') format('woff');
-}
-
-.nav-pills .nav-link.active {
-    background-color: #ffffff !important;
-}
-
-#tabsJustified li a.active .black-image {
+#util-tabsJustified li a.active .black-image {
     display: none;
 }
 
-#tabsJustified li a.active .white-image {
-    display:initial !important;
+#util-tabsJustified li a.active .white-image {
+    display: initial !important;
 }
 
-#tabsJustified {
+#util-tabsJustified {
     margin-left: 6.364%;
     margin-right: 6.364%;
     margin-top: 51px;
     flex-wrap: nowrap !important;
 }
 
-#tabsJustified li a {
+#util-tabsJustified li a {
     padding: 12px;
     color: #200E32;
     min-width: 158px;
 }
 
-#tabsJustified li .cat.active {
+#util-tabsJustified li .cat.active {
     background: #615EFF !important;
     color: white;
     border-radius: 10px !important;
-}
-
-#style-2::-webkit-scrollbar-track
-{
-	border-radius: 10px;
-	background-color: #F5F5F5;
-}
-
-#style-2::-webkit-scrollbar
-{
-	width: 4px;
-    height: 4px;
-    border-radius: 10px;
-	background-color: #F5F5F5;
-}
-
-#style-2::-webkit-scrollbar-thumb
-{
-	border-radius: 10px;
-	box-shadow: inset 0 0 6px rgba(0,0,0,.3);
-	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
-	background-color: rgba(97, 94, 255, 1);
-}
-
-.table td, .table th {
-    border-top: none !important;
 }
 
 .tbl-even tr:nth-child(even) {
@@ -95,7 +49,7 @@ a:-webkit-any-link {
 }
 
 .tbl-signer {
-    border: 1px solid #D1D1D1; 
+    border: 1px solid #D1D1D1;
     border-collapse: collapse;
     margin-top: 15px;
 }
@@ -117,7 +71,7 @@ a:-webkit-any-link {
 .tbl-same-div {
     margin-top: 21px;
     padding: 5px !important;
-    border-radius: 10px; 
+    border-radius: 10px;
     box-shadow: 0px 4px 84px rgba(0, 0, 0, 0.03);
     background-color: white;
 }
@@ -180,17 +134,17 @@ a:-webkit-any-link {
     background: #ECF7EA !important;
 }
 
-.sbar {
+.util-sbar {
     background: #F0F1F3 !important;
     box-shadow: 0px 4px 84px rgba(0, 0, 0, 0.03);
     border-radius: 10px;
 }
 
-.sbar button {
+.util-sbar button {
     background: #F0F1F3 !important;
 }
 
-.sbar-input {
+.util-sbar-input {
     text-align: left !important;
     height: 100% !important;
     background: #F0F1F3 !important;
@@ -199,44 +153,8 @@ a:-webkit-any-link {
     border-radius: 10px;
 }
 
-.sbar-input::placeholder {
+.util-sbar-input::placeholder {
     color: #B7B2BD;
-}
-
-.checkbox {
-    position: relative;
-    width: 15px;
-    height: 15px;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    -o-appearance: none;
-    appearance: none;
-    background: transparent;
-    border: 1px solid hsl(0, 0%, 82%);
-    border-radius: 5px;
-    margin: 0;
-    outline: none;
-    transition: 0.5s ease;
-    opacity: 0.8;
-    cursor: pointer;
-}
-
-.checkbox:checked {
-    border: 1px solid #44B328;
-    background-color: transparent;
-}
-
-.checkbox:checked:before {
-    position: absolute;
-    left: 2.5px;
-    top: -0.5px;
-    display: block;
-    content: '\2713';
-    text-align: center;
-    color: #44B328;
-    font-family: Arial;
-    font-size: 10px;
-    font-weight: 800;
 }
 
 .checkbox-lg {
@@ -261,41 +179,14 @@ a:-webkit-any-link {
     font-size: 12px;
 }
 
-.checkbox-primary {
-    width: 18px !important;
-    height: 18px !important;
-}
-
-.checkbox-primary:checked:before {
-    color: #615EFF !important;
-    top: 0.5px !important;
-    left: 3.5px !important;
-}
-
-.checkbox-primary:checked {
-    border: 1px solid #615EFF !important;
-}
-
-.checkbox-circle {
-    border-radius: 50% !important;
-    width: 20px !important;
-    height: 20px !important;
-}
-
-.checkbox-circle:checked:before {
-    left: 3.5px !important;
-    top: 1px !important;
-    font-size: 12px !important;
- }
- 
 .ddm-1 {
     min-width: 99px !important;
     height: 69px;
 }
 
 .ddm-1 img {
-    position: absolute; 
-    top: -7px; 
+    position: absolute;
+    top: -7px;
     right: 15px;
 }
 
@@ -311,9 +202,9 @@ a:-webkit-any-link {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #14142B; 
-    line-height: 26px; 
-    font-size: 10px; 
+    color: #14142B;
+    line-height: 26px;
+    font-size: 10px;
     height: 34px;
     border-bottom: 1px solid rgba(209, 209, 209, 0.19);
 }
@@ -329,8 +220,8 @@ a:-webkit-any-link {
 }
 
 .ddm-2 .poly {
-    position: absolute; 
-    top: -7px; 
+    position: absolute;
+    top: -7px;
     left: 15px;
 }
 
@@ -348,8 +239,8 @@ a:-webkit-any-link {
 }
 
 .ddm-3 img {
-    position: absolute; 
-    top: -7px; 
+    position: absolute;
+    top: -7px;
     right: 15px;
 }
 
@@ -378,8 +269,8 @@ a:-webkit-any-link {
 }
 
 .ddm-4 img {
-    position: absolute; 
-    top: -7px; 
+    position: absolute;
+    top: -7px;
     right: 15px;
 }
 
@@ -452,14 +343,15 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 }
 
 #slct {
-    color: #200E32; 
-    height: 56px; 
-    border-radius: 10px; 
-    border: 1.5px solid #D1D1D1; 
+    color: #200E32;
+    height: 56px;
+    border-radius: 10px;
+    border: 1.5px solid #D1D1D1;
     box-sizing: border-box;
 }
 
 /* Reset Select */
+
 select {
     -webkit-appearance: none;
     -moz-appearance: none;
@@ -468,11 +360,11 @@ select {
     outline: 0;
     width: 100%;
     box-shadow: none;
-    color: #200E32; 
+    color: #200E32;
     height: 56px;
     padding-left: 1.25em;
-    border-radius: 10px; 
-    border: 1.5px solid #D1D1D1; 
+    border-radius: 10px;
+    border: 1.5px solid #D1D1D1;
     box-sizing: border-box;
 }
 
@@ -516,42 +408,36 @@ select {
     color: #200E32;
 }
 
-.col-div {
-    width: 20%;
-    flex: 0 0 20%;
-    max-width: 20%;
-}
-
 .col-div-6 {
-    padding-top: 15px !important; 
-    width: 47.4%; 
-    flex: 0 0 47.4%; 
+    padding-top: 15px !important;
+    width: 47.4%;
+    flex: 0 0 47.4%;
     max-width: 47.4%;
 }
 
-.date-range {
-    width: 229px; 
-    height: 54px; 
-    border-radius: 10px; 
+.util-date-range {
+    width: 229px;
+    height: 54px;
+    border-radius: 10px;
     color: #200E32;
     background: white;
 }
 
 .ptw-btn-44 {
-    width: 224px; 
-    height: 54px; 
-    background: #615EFF; 
+    width: 224px;
+    height: 54px;
+    background: #615EFF;
     border-radius: 9px;
 }
 
-.drag-drop {
+.util-drag-drop {
     background: rgba(97, 94, 255, 0.05);
     border: 1.5px dashed rgba(97, 94, 255, 0.4);
     border-radius: 15px;
     position: relative;
 }
 
-.drag-file-input {
+.util-drag-file-input {
     position: absolute;
     left: 0;
     top: 0;
@@ -594,11 +480,7 @@ select {
     border-bottom-right-radius: 15px !important;
 }
 
-input[type="date"]::placeholder {
-    color: rgba(196, 196, 196, 0.5);
-}
-
-.progress1 {
+.util-progress1 {
     border-radius: 30px;
     display: -ms-flexbox;
     display: flex;
@@ -606,7 +488,7 @@ input[type="date"]::placeholder {
     font-size: 0.75rem;
 }
 
-.progress-bar1 {
+.util-progress-bar1 {
     display: -ms-flexbox;
     display: flex;
     -ms-flex-direction: column;
@@ -620,13 +502,13 @@ input[type="date"]::placeholder {
     transition: width 0.6s ease;
 }
 
-.progress-circle {
-	width:12px;
-	height:12px;
-	position:absolute;
+.util-progress-circle {
+    width: 12px;
+    height: 12px;
+    position: absolute;
     box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.07);
-	border-radius:50%;
-	right:0;
+    border-radius: 50%;
+    right: 0;
 }
 
 .set-height-363 {
@@ -674,94 +556,10 @@ input[type="date"]::placeholder {
     display: block !important;
 }
 
-.tc-grey {
-    color: rgba(92, 87, 97, 0.5);
-}
-
-.fw-normal {
-    font-weight: normal;
-    color: #200E32;
-}
-
-.fw-400 {
-    font-weight: 400;
-}
-
-.fw-500 {
-    font-weight: 500;
-}
-
-.fs-10 {
-    font-size: 10px !important;
-    line-height: 12px !important;
-}
-
-.fs-11 {
-    font-size: 11px !important;
-    line-height: 13px !important;
-}
-
-.fs-12 {
-    font-size: 12px !important;
-    line-height: 14px !important;
-}
-
-.fs-13 {
-    font-size: 13px !important;
-    line-height: 15px !important;
-}
-
-.fs-14 {
-    font-size: 14px !important;
-    line-height: 16px !important;
-}
-
-.fs-15 {
-    font-size: 15px !important;
-    line-height: 17px !important;
-}
-
-.fs-16 {
-    font-size: 16px !important;
-    line-height: 18px !important;
-}
-
-.fs-17 {
-    font-size: 17px !important;
-    line-height: 19px !important;
-}
-
-.fs-18 {
-    font-size: 18px;
-    line-height: 20px;
-}
-
-.fs-19 {
-    font-size: 19px;
-    line-height: 21px;
-}
-
-.fs-20 {
-    font-size: 20px;
-    line-height: 22px;
-}
-
-.fs-22 {
-    font-size: 22px;
-    line-height: 24px;
-}
-
-.fs-27 {
-    font-size: 27px;
-    line-height: 29px;
-}
-
 @media screen and (max-width: 1505px) {
-
     .adj-img-95 {
         height: auto !important;
     }
-
     .ddm-1.show {
         top: 12px !important;
         left: -22px !important;
@@ -772,152 +570,18 @@ input[type="date"]::placeholder {
 }
 
 @media screen and (max-width: 1450px) {
-    .fs-10 {
-        font-size: 9px !important;
-        line-height: 11px !important;
-    }
-
     .mr-28 {
         margin-right: 22px;
     }
-    
-    .fs-11 {
-        font-size: 10px !important;
-        line-height: 11.5px !important;
-    }
-    
-    .fs-12 {
-        font-size: 11px !important;
-        line-height: 13px !important;
-    }
-    
-    .fs-13 {
-        font-size: 12px !important;
-        line-height: 14px !important;
-    }
-
-    .fs-14 {
-        font-size: 13px !important;
-        line-height: 15px !important;
-    }
-    
-    .fs-15 {
-        font-size: 14px !important;
-        line-height: 16px !important;
-    }
-
-    .fs-16 {
-        font-size: 15px !important;
-        line-height: 17px !important;
-    }
-    
-    .fs-17 {
-        font-size: 16px;
-        line-height: 18px;
-    }
-
-    .fs-18 {
-        font-size: 17px;
-        line-height: 19px;
-    }
-    
-    .fs-19 {
-        font-size: 18px;
-        line-height: 20px;
-    }
-
-    .fs-20 {
-        font-size: 19px;
-        line-height: 20px;
-    }
-
-    .fs-22 {
-        font-size: 21px;
-        line-height: 23px;
-    }
-    
-    .fs-27 {
-        font-size: 25px;
-        line-height: 27px;
-    }
-
 }
 
 @media screen and (max-width: 1280px) {
-
     .set-height-363 {
         height: auto !important;
     }
-    
     .mr-28 {
         margin-right: 16px;
     }
-    
-    .fs-10 {
-        font-size: 8px !important;
-        line-height: 10px !important;
-    }
-
-    .fs-11 {
-        font-size: 9px !important;
-        line-height: 11px !important;
-    }
-    
-    .fs-12 {
-        font-size: 10px !important;
-        line-height: 12px !important;
-    }    
-
-    .fs-13 {
-        font-size: 11px !important;
-        line-height: 13px !important;
-    }
-
-    .fs-14 {
-        font-size: 12px !important;
-        line-height: 14px !important;
-    }
-    
-    .fs-15 {
-        font-size: 13px !important;
-        line-height: 15px !important;
-    }
-    
-    .fs-16 {
-        font-size: 14px !important;
-        line-height: 16px !important;
-    }
-
-    .fs-17 {
-        font-size: 14px !important;
-        line-height: 16px !important;
-    }
-
-    .fs-18 {
-        font-size: 16px !important;
-        line-height: 18px !important;
-    }
-
-    .fs-19 {
-        font-size: 17px;
-        line-height: 19px;
-    }
-
-    .fs-20 {
-        font-size: 18px;
-        line-height: 20px;
-    }
-
-    .fs-22 {
-        font-size: 20px;
-        line-height: 22px;
-    }
-    
-    .fs-27 {
-        font-size: 24px;
-        line-height: 26px;
-    }
-
 }
 
 @media screen and (max-width: 1245px) {
@@ -927,113 +591,33 @@ input[type="date"]::placeholder {
 }
 
 @media screen and (max-width: 890px) {
-
     .qr-sidebar div.d-flex {
         padding-left: 5% !important;
         padding-right: 5% !important;
     }
-    
     .qr-sidebar div div.fs-12 {
         font-size: 8px !important;
         line-height: 10px !important;
     }
-
-    .modal-dialog {
+    .util-modal-dialog {
         max-width: 50% !important;
     }
-
     .mr-28 {
         margin-right: 10px;
     }
-    
     .ptw-btn-44 {
         width: 160px;
     }
-
-    .date-range {
+    .util-date-range {
         width: 165px;
     }
-    
     .qr-sidebar div div img {
         width: 15.02px !important;
         height: 15px !important;
     }
-
-    .col-div {
-        width: 33% !important;
-        flex: 0 0 33% !important;
-        max-width: 33% !important;
-    }
-
     .col-div-6 {
-        width: 100%; 
-        flex: 0 0 100%; 
+        width: 100%;
+        flex: 0 0 100%;
         max-width: 100%;
     }
-    
-    .fs-10 {
-        font-size: 8px !important;
-        line-height: 10px !important;
-    }
-    
-    .fs-11 {
-        font-size: 8px !important;
-        line-height: 10px !important;
-    }
-    
-    .fs-12 {
-        font-size: 9px !important;
-        line-height: 11px !important;
-    }    
-
-    .fs-13 {
-        font-size: 9px !important;
-        line-height: 11px !important;
-    }
-
-    .fs-14 {
-        font-size: 10px !important;
-        line-height: 12px !important;
-    }
-    
-    .fs-15 {
-        font-size: 11px !important;
-        line-height: 13px !important;
-    }
-    
-    .fs-16 {
-        font-size: 12px !important;
-        line-height: 14px !important;
-    }
-
-    .fs-17 {
-        font-size: 13px !important;
-        line-height: 15px !important;
-    }
-
-    .fs-18 {
-        font-size: 14px !important;
-        line-height: 16px !important;
-    }
-
-    .fs-19 {
-        font-size: 15px;
-        line-height: 17px;
-    }
-
-    .fs-20 {
-        font-size: 16px;
-        line-height: 18px;
-    }
-
-    .fs-22 {
-        font-size: 18px;
-        line-height: 20px;
-    }
-    
-    .fs-27 {
-        font-size: 19px;
-        line-height: 21px;
-    }
-
 }
