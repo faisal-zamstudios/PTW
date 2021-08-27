@@ -168,62 +168,6 @@ a:link {
     margin-top: 20px;
 }
 
-.fs-11 {
-    font-size: 11px !important;
-    line-height: 13px !important;
-}
-
-.fs-12 {
-    font-size: 12px !important;
-    line-height: 14px !important;
-}
-
-.fs-14 {
-    font-size: 14px !important;
-    line-height: 16px !important;
-}
-
-.fs-15 {
-    font-size: 15px !important;
-    line-height: 17px !important;
-}
-
-.fs-17 {
-    font-size: 17px !important;
-    line-height: 19px !important;
-}
-
-.fs-17-1 {
-    font-size: 17px !important;
-    line-height: 16px !important;
-}
-
-.fs-18 {
-    font-size: 18px !important;
-    line-height: 20px !important;
-}
-
-label {
-    margin-bottom: .7rem !important;
-    margin-top: .6rem !important;
-}
-
-.fw-400 {
-    font-weight: 400 !important;
-}
-
-.fw-500 {
-    font-weight: 500 !important;
-}
-
-.br-10 {
-    border-radius: 10px !important;
-}
-
-.tc-grey {
-    color: rgba(92, 87, 97, 0.83);
-}
-
 .admin-modal-header {
     border-bottom: none !important;
     border-radius: 15px;
@@ -296,12 +240,12 @@ label {
     cursor: pointer;
 }
 
-.checkbox:checked {
+.admin-checkbox:checked {
     border: 1px solid #44B328;
     background-color: #fff;
 }
 
-.checkbox:checked:before {
+.admin-checkbox:checked:before {
     position: absolute;
     left: 2.5px;
     top: -1.5px;
@@ -312,33 +256,6 @@ label {
     font-family: Arial;
     font-size: 12px;
     font-weight: 800;
-}
-
-.checkbox-primary {
-    width: 18px !important;
-    height: 18px !important;
-}
-
-.checkbox-primary:checked:before {
-    color: #615EFF !important;
-    top: 1.5px !important;
-    left: 2.5px !important;
-}
-
-.checkbox-primary:checked {
-    border: 1px solid #615EFF !important;
-}
-
-.checkbox-circle {
-    border-radius: 50% !important;
-    width: 20px !important;
-    height: 20px !important;
-}
-
-.checkbox-circle:checked:before {
-    left: 3.5px !important;
-    top: 1px !important;
-    font-size: 12px !important;
 }
 
 .checkbox1 {
@@ -389,81 +306,14 @@ label {
     font-size: 12px !important;
 }
 
-/* The switch - the box around the slider */
-
-.switch {
-    position: relative;
-    display: inline-block;
-    width: 44px;
-    height: 25px;
-}
-
-/* Hide default HTML checkbox */
-
-.switch input {
-    opacity: 0;
-    width: 0;
-    height: 0;
-}
-
-/* The slider */
-
-.slider {
-    position: absolute;
-    cursor: pointer;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: #ccc;
-    -webkit-transition: .4s;
-    transition: .4s;
-}
-
-.slider:before {
-    position: absolute;
-    content: "";
-    height: 21px;
-    width: 21px;
-    left: 2px;
-    bottom: 2px;
-    background-color: white;
-    -webkit-transition: .4s;
-    transition: .4s;
-}
-
-input:checked+.slider {
-    background-color: #615EFF;
-}
-
-input:focus+.slider {
-    box-shadow: 0 0 1px #615EFF;
-}
-
-input:checked+.slider:before {
-    -webkit-transform: translateX(19px);
-    -ms-transform: translateX(19px);
-    transform: translateX(19px);
-}
-
-/* Rounded sliders */
-
-.slider.round {
-    border-radius: 34px;
-}
-
-.slider.round:before {
-    border-radius: 50%;
-}
-
-.drag-drop {
+.admin-drag-drop {
     background: rgba(97, 94, 255, 0.05);
     border: 1.5px dashed rgba(97, 94, 255, 0.4);
     border-radius: 15px;
     position: relative;
 }
 
-.drag-file-input {
+.admin-drag-file-input {
     position: absolute;
     left: 0;
     top: 0;
@@ -474,30 +324,6 @@ input:checked+.slider:before {
 }
 
 @media screen and (max-width: 1450px) {
-    .fs-11 {
-        font-size: 10px !important;
-        line-height: 11.5px !important;
-    }
-    .fs-12 {
-        font-size: 11px !important;
-        line-height: 13px !important;
-    }
-    .fs-14 {
-        font-size: 13px !important;
-        line-height: 15px !important;
-    }
-    .fs-16 {
-        font-size: 15px !important;
-        line-height: 17px !important;
-    }
-    .fs-17 {
-        font-size: 16px;
-        line-height: 18px;
-    }
-    .fs-17-1 {
-        font-size: 15px !important;
-        line-height: 16px !important;
-    }
     .admin-sub-cat {
         font-size: 13px;
         line-height: 16px;
@@ -515,16 +341,13 @@ input:checked+.slider:before {
         line-height: 12px;
         margin-top: 16px;
     }
-    .pl-5 {
+    .admin-pl-5 {
         padding-left: 25px !important;
     }
-    .mr-5 {
-        margin-right: 15px !important;
-    }
-    .pl-4 {
+    .admin-pl-4 {
         padding-left: 15px !important;
     }
-    .pr-4 {
+    .admin-pr-4 {
         padding-right: 15px !important;
     }
 }
@@ -541,10 +364,10 @@ input:checked+.slider:before {
     #admin-tabsJustified li {
         margin-top: 2px;
     }
-    .container-fluid .drag-drop1 {
+    .container-fluid .admin-drag-drop1 {
         height: 130px !important;
     }
-    .drag-drop1.text-center {
+    .admin-drag-drop1.text-center {
         height: 80px !important;
     }
     .admin-cat {
@@ -579,73 +402,15 @@ input:checked+.slider:before {
         line-height: 9px;
         margin-top: 10px;
     }
-    .pd-inp {
-        padding: 3px !important;
-        padding-left: 6px !important;
-        height: 31px !important;
-    }
-    .bton {
+    .admin-bton {
         width: 80px !important;
         height: 30px !important;
-    }
-    .pd-sel {
-        padding: 2px !important;
-        height: 30px !important;
-    }
-    .col-sm-3 {
-        padding: 05px !important;
-    }
-    .fs-11 {
-        font-size: 9px !important;
-        line-height: 11px !important;
-    }
-    .fs-12 {
-        font-size: 10px;
-        line-height: 12px;
-    }
-    .fs-14 {
-        font-size: 12px;
-        line-height: 14px;
-    }
-    .fs-15 {
-        font-size: 13px;
-        line-height: 15px;
-    }
-    .fs-17 {
-        font-size: 11px;
-        line-height: 17px;
-    }
-    .fs-17-1 {
-        font-size: 10px !important;
-        line-height: 16px !important;
-    }
-    .fs-18 {
-        font-size: 16px !important;
-        line-height: 18px !important;
     }
     .set5 {
         margin-left: 0 !important;
     }
     .admin-modal-body {
         height: 350px;
-    }
-    /* The switch - the box around the slider */
-    .switch {
-        width: 34px;
-        height: 20px;
-    }
-    .slider:before {
-        position: absolute;
-        content: "";
-        height: 16px;
-        width: 16px;
-        left: 2px;
-        bottom: 2px;
-    }
-    input:checked+.slider:before {
-        -webkit-transform: translateX(14px);
-        -ms-transform: translateX(14px);
-        transform: translateX(14px);
     }
 }
 
@@ -773,48 +538,8 @@ input:checked+.slider:before {
         line-height: 9.5px;
         margin-top: 5px;
     }
-    .p-3 {
-        padding: 10px !important;
-    }
     .p-t {
         padding-top: 1rem !important;
-    }
-    .pd-inp {
-        padding: 2px !important;
-        padding-left: 4px !important;
-        height: 26px !important;
-    }
-    .pd-sel {
-        padding: 0px !important;
-        height: 25px !important;
-    }
-    .fs-11 {
-        font-size: 7px !important;
-        line-height: 9px !important;
-    }
-    .fs-12 {
-        font-size: 09px !important;
-        line-height: 11px !important;
-    }
-    .fs-14 {
-        font-size: 11px !important;
-        line-height: 13px !important;
-    }
-    .fs-15 {
-        font-size: 12px !important;
-        line-height: 14px !important;
-    }
-    .fs-17 {
-        font-size: 13px !important;
-        line-height: 16px !important;
-    }
-    .fs-17-1 {
-        font-size: 09px !important;
-        line-height: 16px !important;
-    }
-    .fs-18 {
-        font-size: 14px !important;
-        line-height: 16px !important;
     }
     .col-div {
         width: 33%;
@@ -830,21 +555,9 @@ input:checked+.slider:before {
     .admin-modal-dialog {
         width: 420px;
     }
-    .checkbox-primary {
-        width: 14px !important;
-        height: 14px !important;
-    }
-    .checkbox-primary:checked:before {
-        top: 0px !important;
-        left: 0px !important;
-    }
-    .bton {
+    .admin-bton {
         width: 67px !important;
         height: 26px !important;
-    }
-    label {
-        margin-bottom: .5rem !important;
-        margin-top: 0 !important;
     }
     .img-90 {
         height: 90px !important;
@@ -856,7 +569,7 @@ input:checked+.slider:before {
     opacity: 0.5;
 }
 
-.bton {
+.admin-bton {
     width: 114px;
     height: 45px;
     background: #615EFF;
@@ -866,7 +579,7 @@ input:checked+.slider:before {
     text-align: center;
 }
 
-.drag-drop1 {
+.admin-drag-drop1 {
     background: transparent;
     border: 1px solid rgba(196, 196, 196, 0.53);
     box-sizing: border-box;
@@ -874,15 +587,7 @@ input:checked+.slider:before {
     position: relative;
 }
 
-.btoon {
-    border: 2px solid black;
-    background-color: transparent;
-    color: black;
-    padding: 14px 28px;
-    cursor: pointer;
-}
-
-.info {
+.admin-info {
     border-color: #615EFF;
     color: #615EFF;
     border-radius: 9px;
