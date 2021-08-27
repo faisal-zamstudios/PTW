@@ -3,83 +3,69 @@
     font-style: normal;
 }
 
-.pad-l-set{
+.pad-l-set {
     padding-left: 15px !important;
 }
 
-.general-btn{
+.general-btn {
     height: 61px;
 }
 
 a:link {
     color: #615EFF;
-  }
+}
 
 .nav-pills .nav-link.active {
     background-color: #ffffff !important;
 }
 
-.date-range {
-    width: 229px; 
-    height: 54px; 
-    border-radius: 10px; 
-    color: #200E32;
-    background: white;
-}
-
-.side-style {
-    border-right: 1px solid rgba(209, 209, 209, 0.5); 
+.admin-side-style {
+    border-right: 1px solid rgba(209, 209, 209, 0.5);
     width: 21.007%;
 }
 
-.side-style ul#tabsJustified {
+.admin-side-style ul#admin-tabsJustified {
     width: 100%;
     padding-left: 10.9%;
     padding-right: 11%;
 }
 
-#tabsJustified li {
+#admin-tabsJustified li {
     margin-top: 3px;
 }
-#tabsJustified li:first-child {
+
+#admin-tabsJustified li:first-child {
     margin-top: 15px;
 }
-#tabsJustified li .cat.active {
+
+#admin-tabsJustified li .admin-cat.active {
     background: #615EFF !important;
     border-radius: 10px !important;
 }
-#tabsJustified1 li .sub-cat.active, #tabsJustified2 li .sub-cat-sub.active, #tabsJustified3 li .sub-cat-sub.active {
+
+#admin-tabsJustified1 li .admin-sub-cat.active, #admin-tabsJustified2 li .admin-sub-cat-sub.active, #admin-tabsJustified3 li .admin-sub-cat-sub.active {
     color: #615EFF !important;
     background: transparent !important;
 }
 
-#tabsJustified li a.active .black-image {
+#admin-tabsJustified li a.active .black-image {
     display: none;
 }
 
-#tabsJustified li a.active .white-image {
-    display:initial !important;
-}
-
-#tabsJustified1 li a.active .black-image {
-    display: none !important;
-}
-
-#tabsJustified1 li a.active .white-image {
+#admin-tabsJustified li a.active .white-image {
     display: initial !important;
 }
 
-.text-font-normal {
-    font-weight: normal;
-    color: #200E32;
+#admin-tabsJustified1 li a.active .black-image {
+    display: none !important;
 }
 
-.text-font-500 {
-    font-weight: 500;
+#admin-tabsJustified1 li a.active .white-image {
+    display: initial !important;
 }
 
-.cat {
-    font-size: 17px; 
+.admin-cat {
+    font-size: 17px;
     line-height: 19px;
     display: flex;
     align-items: center;
@@ -87,34 +73,34 @@ a:link {
     padding-left: 18px !important;
 }
 
-.sub-cat {
+.admin-sub-cat {
     margin-left: 8% !important;
-    font-size: 15px; 
+    font-size: 15px;
     line-height: 18px;
     padding: 10px;
     padding-left: 11.2%;
     width: 100%;
 }
 
-.sub-cat-sub {
+.admin-sub-cat-sub {
     margin-left: 55px;
-    font-size: 13px; 
+    font-size: 13px;
     line-height: 15px;
     padding: 5px !important;
     padding-left: 24px !important;
 }
 
-.sbar {
+.admin-sbar {
     background: #F0F1F3 !important;
     box-shadow: 0px 4px 84px rgba(0, 0, 0, 0.03);
     border-radius: 10px;
 }
 
-.sbar button {
+.admin-sbar button {
     background: #F0F1F3 !important;
 }
 
-.sbar-input {
+.admin-sbar-input {
     text-align: left !important;
     height: 100% !important;
     background: #F0F1F3 !important;
@@ -123,60 +109,59 @@ a:link {
     border-radius: 10px;
 }
 
-.col-div{
+.col-div {
     width: 20%;
     flex: 0 0 20%;
     max-width: 20%;
 }
 
-.sbar-input::placeholder {
+.admin-sbar-input::placeholder {
     color: #B7B2BD;
 }
 
-.add-client-btn {
-    width: 254px; 
+.admin-add-client-btn {
+    width: 254px;
     height: 49px;
-    background: #615EFF !important; 
+    background: #615EFF !important;
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
     border-radius: 10px;
 }
-.add-client-btn1 {
-    width: 224px; 
-    height: 49px; 
+
+.admin-add-client-btn1 {
+    width: 224px;
+    height: 49px;
     color: #615EFF;
-    background: transparent !important; 
+    background: transparent !important;
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
     border-radius: 10px;
     border: 2px solid #615EFF;
 }
-.add-client-btn2 {
-    width: 224px; 
-    height: 49px; 
-    background: #615EFF !important; 
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 16px;
-    border-radius: 10px;
-}
-.add-client-btn3 {
-    width: 224px; 
-    height: 49px; 
-    background: #615EFF !important; 
+
+.admin-add-client-btn2 {
+    width: 224px;
+    height: 49px;
+    background: #615EFF !important;
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
     border-radius: 10px;
 }
 
-.box-height-240 {
-    height: 240px;
+.admin-add-client-btn3 {
+    width: 224px;
+    height: 49px;
+    background: #615EFF !important;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    border-radius: 10px;
 }
 
-.client-text {
+.admin-client-text {
     font-weight: 400;
     font-size: 11px;
     line-height: 13px;
@@ -197,6 +182,7 @@ a:link {
     font-size: 14px !important;
     line-height: 16px !important;
 }
+
 .fs-15 {
     font-size: 15px !important;
     line-height: 17px !important;
@@ -206,18 +192,22 @@ a:link {
     font-size: 17px !important;
     line-height: 19px !important;
 }
+
 .fs-17-1 {
     font-size: 17px !important;
     line-height: 16px !important;
 }
+
 .fs-18 {
     font-size: 18px !important;
     line-height: 20px !important;
 }
+
 label {
     margin-bottom: .7rem !important;
     margin-top: .6rem !important;
 }
+
 .fw-400 {
     font-weight: 400 !important;
 }
@@ -234,123 +224,61 @@ label {
     color: rgba(92, 87, 97, 0.83);
 }
 
-.modal-header {
+.admin-modal-header {
     border-bottom: none !important;
     border-radius: 15px;
 }
 
-.modal-body {
+.admin-modal-body {
     max-height: 492px;
 }
 
 @media (min-width: 1080px) {
-    .modal-dialog {
+    .admin-modal-dialog {
         max-width: 573px !important;
         margin: 2.75rem auto;
     }
-    
-    .modal-dialog-centered {
+    .admin-modal-dialog-centered {
         min-height: calc(100% - (2.75rem * 2));
     }
 }
 
 @media (min-width: 700px) {
-    .modal-dialog {
+    .admin-modal-dialog {
         max-width: 500px;
         margin: 2.75rem auto;
     }
-
-    .modal-dialog-centered {
+    .admin-modal-dialog-centered {
         min-height: calc(100% - (2.75rem * 2));
     }
 }
 
-#style-2::-webkit-scrollbar-track
-{
-	border-radius: 10px;
-	background-color: #F5F5F5;
-}
-
-#style-2::-webkit-scrollbar
-{
-	width: 4px;
-    height: 4px;
-    border-radius: 10px;
-	background-color: #F5F5F5;
-}
-
-#style-2::-webkit-scrollbar-thumb
-{
-	border-radius: 10px;
-	box-shadow: inset 0 0 6px rgba(0,0,0,.3);
-	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
-	background-color: rgba(97, 94, 255, 1);
+#clients div div div div ul li {
+    width: 100%;
 }
 
 #clients div div div div ul li {
     width: 100%;
 }
-.table td, .table th {
-    border-top:none !important;
-}
-#clients div div div div ul li {
-    width: 100%;
-}
-.tbl-csv td {
-    vertical-align: middle;
-}
-.tbl-csv {
-    min-width: 975px;
-}
 
-.tbl-role {
-    min-width: 975px;
-}
-.tbl-role td{
-    vertical-align: middle;
-    text-align: center;
-    border-bottom: 1px solid #DEE2E6!important;
-}
-.tbl-role thead td{
-    border-bottom: none !important;
-}
-.tbl-role td:first-child {
-    background: transparent;
-    text-align: left !important;
-    margin-left: 30px;
-    border-bottom: none !important;
-}
-.tbl thead tr td {
-    padding-left: 25px;
-}
-.tbl tbody tr td {
-    padding: 25px;
-}
-.table tbody td {
-    background-color: white;
-}
-.h-35 {
-    height: 35px !important;
-}
-
-.dropdown-menu li div label {
+.admin-dropdown-menu li div label {
     vertical-align: middle !important;
     margin-left: 5px;
 }
 
-.dropdown-menu.show {
-    top:30px !important;
+.admin-dropdown-menu.show {
+    top: 30px !important;
     height: 180px;
     border-radius: 10px;
 }
 
 .drop1.show {
-    top:0px !important;
+    top: 0px !important;
     height: 100px;
     border-radius: 10px;
 }
 
-.checkbox {
+.admin-checkbox {
     position: relative;
     width: 19px;
     height: 19px;
@@ -367,55 +295,52 @@ label {
     opacity: 0.8;
     cursor: pointer;
 }
-.checkbox-primary {
-    width: 18px !important;
-    height: 18px !important;
-}
-.checkbox-primary:checked:before {
-    color: #615EFF !important;
-    top: 1.5px !important;
-    left: 2.5px !important;
-}
-.checkbox-primary:checked {
-    border: 1px solid #615EFF !important;
-}
-.checkbox-circle {
-    border-radius: 50% !important;
-    width: 20px !important;
-    height: 20px !important;
-}
 
 .checkbox:checked {
     border: 1px solid #44B328;
     background-color: #fff;
 }
 
-
 .checkbox:checked:before {
-   position: absolute;
-   left: 2.5px;
-   top: -1.5px;
-   display: block;
-   content: '\2713';
-   text-align: center;
-   color: #44B328;
-   font-family: Arial;
-   font-size: 12px;
-   font-weight: 800;
+    position: absolute;
+    left: 2.5px;
+    top: -1.5px;
+    display: block;
+    content: '\2713';
+    text-align: center;
+    color: #44B328;
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: 800;
 }
 
+.checkbox-primary {
+    width: 18px !important;
+    height: 18px !important;
+}
 
+.checkbox-primary:checked:before {
+    color: #615EFF !important;
+    top: 1.5px !important;
+    left: 2.5px !important;
+}
+
+.checkbox-primary:checked {
+    border: 1px solid #615EFF !important;
+}
+
+.checkbox-circle {
+    border-radius: 50% !important;
+    width: 20px !important;
+    height: 20px !important;
+}
 
 .checkbox-circle:checked:before {
     left: 3.5px !important;
     top: 1px !important;
     font-size: 12px !important;
- }
+}
 
-
-
-
- 
 .checkbox1 {
     position: relative;
     width: 18.5px;
@@ -445,42 +370,44 @@ label {
     background-color: #fff;
 }
 
-
 .checkbox1:checked:before {
-   position: absolute;
-   left: 2px;
-   top: -1.5px;
-   display: block;
-   content: '\2713';
-   text-align: center;
-   color: #615EFF;
-   font-family: Arial;
-   font-size: 13px;
-   font-weight: 800;
+    position: absolute;
+    left: 2px;
+    top: -1.5px;
+    display: block;
+    content: '\2713';
+    text-align: center;
+    color: #615EFF;
+    font-family: Arial;
+    font-size: 13px;
+    font-weight: 800;
 }
-
-
 
 .checkbox1-circle:checked:before {
     left: 3.5px !important;
     top: 1px !important;
     font-size: 12px !important;
- }
- 
+}
+
 /* The switch - the box around the slider */
+
 .switch {
     position: relative;
     display: inline-block;
     width: 44px;
     height: 25px;
 }
+
 /* Hide default HTML checkbox */
+
 .switch input {
     opacity: 0;
     width: 0;
     height: 0;
 }
+
 /* The slider */
+
 .slider {
     position: absolute;
     cursor: pointer;
@@ -492,6 +419,7 @@ label {
     -webkit-transition: .4s;
     transition: .4s;
 }
+
 .slider:before {
     position: absolute;
     content: "";
@@ -503,27 +431,33 @@ label {
     -webkit-transition: .4s;
     transition: .4s;
 }
-input:checked + .slider {
+
+input:checked+.slider {
     background-color: #615EFF;
 }
-input:focus + .slider {
+
+input:focus+.slider {
     box-shadow: 0 0 1px #615EFF;
 }
-input:checked + .slider:before {
+
+input:checked+.slider:before {
     -webkit-transform: translateX(19px);
     -ms-transform: translateX(19px);
     transform: translateX(19px);
 }
+
 /* Rounded sliders */
+
 .slider.round {
     border-radius: 34px;
 }
+
 .slider.round:before {
     border-radius: 50%;
 }
 
 .drag-drop {
-    background:rgba(97, 94, 255, 0.05);
+    background: rgba(97, 94, 255, 0.05);
     border: 1.5px dashed rgba(97, 94, 255, 0.4);
     border-radius: 15px;
     position: relative;
@@ -539,13 +473,7 @@ input:checked + .slider:before {
     opacity: 0;
 }
 
-
-
 @media screen and (max-width: 1450px) {
-    .box-height-240 {
-        height: 220px;
-    }
-
     .fs-11 {
         font-size: 10px !important;
         line-height: 11.5px !important;
@@ -562,59 +490,47 @@ input:checked + .slider:before {
         font-size: 15px !important;
         line-height: 17px !important;
     }
-   
-    
     .fs-17 {
         font-size: 16px;
         line-height: 18px;
     }
-
     .fs-17-1 {
         font-size: 15px !important;
         line-height: 16px !important;
     }
-
-    .sub-cat {
-        font-size: 13px; 
+    .admin-sub-cat {
+        font-size: 13px;
         line-height: 16px;
         margin-left: 5% !important;
     }
-        
-    .sub-cat-sub {
-        font-size: 12px; 
+    .admin-sub-cat-sub {
+        font-size: 12px;
         line-height: 14px;
     }
-
-    .add-client-btn {
+    .admin-add-client-btn {
         width: 210px;
     }
-
-    .client-text {
+    .admin-client-text {
         font-size: 10px !important;
         line-height: 12px;
         margin-top: 16px;
     }
-
     .pl-5 {
         padding-left: 25px !important;
     }
-    
     .mr-5 {
         margin-right: 15px !important;
     }
-    
     .pl-4 {
         padding-left: 15px !important;
     }
-    
     .pr-4 {
         padding-right: 15px !important;
     }
-    
 }
 
 @media screen and (max-width: 1350px) {
-    .client-text {
+    .admin-client-text {
         font-size: 9.5px;
         line-height: 11px;
         margin-top: 14px;
@@ -622,53 +538,43 @@ input:checked + .slider:before {
 }
 
 @media screen and (max-width: 1080px) {
-    .box-height-240 {
-        height: 200px;
-    }
-
-    #tabsJustified li {
+    #admin-tabsJustified li {
         margin-top: 2px;
     }
-    .container-fluid .drag-drop1{
+    .container-fluid .drag-drop1 {
         height: 130px !important;
     }
-
     .drag-drop1.text-center {
         height: 80px !important;
     }
-    
-    .cat {
-        font-size: 13px; 
+    .admin-cat {
+        font-size: 13px;
         line-height: 15px;
-    }  
-
-    .sub-cat {
+    }
+    .admin-sub-cat {
         margin-left: 09px;
-        font-size: 11px; 
+        font-size: 11px;
         line-height: 13px;
     }
-     
-    .sub-cat-sub {
+    .admin-sub-cat-sub {
         margin-left: 24px;
-        font-size: 12px; 
+        font-size: 12px;
         line-height: 14px;
         padding-left: 22px !important;
     }
-
-    .add-client-btn {
+    .admin-add-client-btn {
         width: 190px;
         margin: 10px;
         font-size: 12px;
         line-height: 14px;
     }
-    .add-client-btn3 {
-        width: 190px; 
+    .admin-add-client-btn3 {
+        width: 190px;
         margin: 10px;
         font-size: 12px;
         line-height: 14px;
     }
-
-    .client-text {
+    .admin-client-text {
         font-size: 7.5px;
         line-height: 9px;
         margin-top: 10px;
@@ -686,7 +592,6 @@ input:checked + .slider:before {
         padding: 2px !important;
         height: 30px !important;
     }
-
     .col-sm-3 {
         padding: 05px !important;
     }
@@ -694,22 +599,18 @@ input:checked + .slider:before {
         font-size: 9px !important;
         line-height: 11px !important;
     }
-
     .fs-12 {
         font-size: 10px;
         line-height: 12px;
-    }    
-
+    }
     .fs-14 {
         font-size: 12px;
         line-height: 14px;
     }
-        
     .fs-15 {
         font-size: 13px;
         line-height: 15px;
     }
-
     .fs-17 {
         font-size: 11px;
         line-height: 17px;
@@ -722,16 +623,13 @@ input:checked + .slider:before {
         font-size: 16px !important;
         line-height: 18px !important;
     }
-
-    .set5{
+    .set5 {
         margin-left: 0 !important;
     }
-
-    .modal-body{
+    .admin-modal-body {
         height: 350px;
     }
-
-       /* The switch - the box around the slider */
+    /* The switch - the box around the slider */
     .switch {
         width: 34px;
         height: 20px;
@@ -744,177 +642,143 @@ input:checked + .slider:before {
         left: 2px;
         bottom: 2px;
     }
-    input:checked + .slider:before {
+    input:checked+.slider:before {
         -webkit-transform: translateX(14px);
         -ms-transform: translateX(14px);
         transform: translateX(14px);
     }
-
 }
 
 @media screen and (max-width: 890px) {
-    .cat {
-        font-size: 13px; 
+    .admin-cat {
+        font-size: 13px;
         line-height: 15px;
         padding: 10px !important;
         padding-top: 14px !important;
         padding-bottom: 14px !important;
     }
-
-    .date-range{
-        width: 180px;
-    }
-
-    .pad-l-set{
+    .pad-l-set {
         padding-left: 06px !important;
     }
-
-    .w-50{
-      width: 50%;
-      height: 50% !important;
+    .w-50 {
+        width: 50%;
+        height: 50% !important;
     }
-
-    .width-set{
+    .width-set {
         width: 50% !important;
         height: 50% !important;
     }
-    .set{
-       margin-right: 0 !important;
-       padding-left: 20px !important; 
-    }
-    .set1{
-        margin-right: 10px !important;
-     }
-    .set3{
+    .set {
         margin-right: 0 !important;
-     }
-     .set2{
+        padding-left: 20px !important;
+    }
+    .set1 {
+        margin-right: 10px !important;
+    }
+    .set3 {
+        margin-right: 0 !important;
+    }
+    .set2 {
         margin-left: 0 !important;
     }
-
-    .set4{
+    .set4 {
         padding-left: 0 !important;
     }
-
-    .set5{
+    .set5 {
         margin-left: 5px !important;
     }
-
-    .set6{
+    .set6 {
         margin-top: 05px !important;
     }
-    .set7{
+    .set7 {
         margin-left: 10px !important;
     }
-
-    .set8{
+    .set8 {
         padding-left: 10px !important;
     }
-
-    .img-16{
+    .img-16 {
         height: 16px;
     }
-
-    .img-14{
+    .img-14 {
         width: 14px !important;
         height: 14px !important;
     }
-
-    .btn-set{
+    .btn-set {
         width: 50px;
     }
-
-    .search-set{
+    .search-set {
         height: 35px !important;
     }
-    .inchange{
+    .inchange {
         width: 25% !important;
     }
-   
-    #tabsJustified li {
+    #admin-tabsJustified li {
         margin-top: 0px;
     }
-    
-    .side-style ul {
+    .admin-side-style ul {
         padding-left: 3px !important;
         padding-right: 3px !important;
     }
-
-    #tabsJustified li {
+    #admin-tabsJustified li {
         margin-left: 0px;
         margin-top: 05px;
     }
-
-    .sub-cat {
+    .admin-sub-cat {
         margin-left: 06px;
-        font-size: 10px; 
+        font-size: 10px;
         line-height: 12px;
         padding: 10px !important;
         padding-left: 5%;
     }
-    
-    .sub-cat-sub {
+    .admin-sub-cat-sub {
         margin-left: 24px;
-        font-size: 10px; 
+        font-size: 10px;
         line-height: 12px;
         padding: 5px !important;
         padding-left: 12px !important;
     }
-
-    .add-client-btn {
-        width: 110px; 
+    .admin-add-client-btn {
+        width: 110px;
         margin: 10px;
         font-size: 08px;
         line-height: 12px;
     }
-
-    .add-client-btn1 {
-        width: 135px; 
+    .admin-add-client-btn1 {
+        width: 135px;
         margin: 10px;
         font-size: 08px;
         line-height: 12px;
     }
-    
-    .add-client-btn2 {
-        width: 125px; 
+    .admin-add-client-btn2 {
+        width: 125px;
         margin: 10px;
         font-size: 08px;
         line-height: 12px;
     }
-    .add-client-btn3 {
+    .admin-add-client-btn3 {
         width: 100px;
         margin: 10px;
         font-size: 08px;
         line-height: 12px;
     }
-
-    .sbar {
+    .admin-sbar {
         height: 32px !important;
         margin-left: 15px !important;
     }
-    
-    .sbar-input {
+    .admin-sbar-input {
         height: 32px !important;
     }
-    
-    .client-text {
+    .admin-client-text {
         font-size: 08px !important;
         line-height: 9.5px;
         margin-top: 5px;
     }
-
-    .box-height-240 {
-        height: 180px;
-    }
-
     .p-3 {
         padding: 10px !important;
     }
-
-    .p-t{
+    .p-t {
         padding-top: 1rem !important;
     }
-
     .pd-inp {
         padding: 2px !important;
         padding-left: 4px !important;
@@ -928,22 +792,18 @@ input:checked + .slider:before {
         font-size: 7px !important;
         line-height: 9px !important;
     }
-
     .fs-12 {
         font-size: 09px !important;
         line-height: 11px !important;
-    }    
-
+    }
     .fs-14 {
         font-size: 11px !important;
         line-height: 13px !important;
     }
-    
     .fs-15 {
         font-size: 12px !important;
         line-height: 14px !important;
     }
-
     .fs-17 {
         font-size: 13px !important;
         line-height: 16px !important;
@@ -956,33 +816,20 @@ input:checked + .slider:before {
         font-size: 14px !important;
         line-height: 16px !important;
     }
-
-    .tbl thead tr td {
-        padding-left: 15px;
-    }
-
-    .tbl tbody tr td {
-        padding: 15px;
-    }
-    
-    .col-div{
+    .col-div {
         width: 33%;
         flex: 0 0 33%;
         max-width: 33%;
     }
-    
-    .modal-body{
+    .admin-modal-body {
         height: 310px;
     }
-
     .modal-content {
         width: 450px !important;
     }
-
-    .modal-dialog {
+    .admin-modal-dialog {
         width: 420px;
     }
-
     .checkbox-primary {
         width: 14px !important;
         height: 14px !important;
@@ -999,58 +846,49 @@ input:checked + .slider:before {
         margin-bottom: .5rem !important;
         margin-top: 0 !important;
     }
-
-    .img-90{
+    .img-90 {
         height: 90px !important;
         width: 90px !important;
     }
-
-
-
-    
-
 }
 
+.red {
+    opacity: 0.5;
+}
 
+.bton {
+    width: 114px;
+    height: 45px;
+    background: #615EFF;
+    border-radius: 9px;
+    color: #FFFFFF;
+    font-size: 14px;
+    text-align: center;
+}
 
+.drag-drop1 {
+    background: transparent;
+    border: 1px solid rgba(196, 196, 196, 0.53);
+    box-sizing: border-box;
+    border-radius: 8px;
+    position: relative;
+}
 
+.btoon {
+    border: 2px solid black;
+    background-color: transparent;
+    color: black;
+    padding: 14px 28px;
+    cursor: pointer;
+}
 
-    
-.red{
-	opacity: 0.5;
-	}
-
-
-    .bton{
-        width: 114px;
-        height: 45px;
-        background: #615EFF;
-        border-radius:9px;
-        color: #FFFFFF;
-        font-size: 14px;
-        text-align: center;
-    }
-    .drag-drop1 {
-        background: transparent;
-        border: 1px solid rgba(196, 196, 196, 0.53);
-        box-sizing: border-box;
-        border-radius: 8px;
-        position: relative;
-    }
-    .btoon{
-        border: 2px solid black;
-        background-color: transparent;
-        color: black;
-        padding: 14px 28px;
-        cursor: pointer;
-    }
-    .info {
-        border-color: #615EFF;
-        color:#615EFF;
-        border-radius: 9px;
-        background-color: transparent !important;
-        font-size:11px;
-        display:inline-block;
-        height:40px;
-        width:100%;
-    }
+.info {
+    border-color: #615EFF;
+    color: #615EFF;
+    border-radius: 9px;
+    background-color: transparent !important;
+    font-size: 11px;
+    display: inline-block;
+    height: 40px;
+    width: 100%;
+}
