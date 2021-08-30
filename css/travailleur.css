@@ -1,0 +1,379 @@
+#trav-tabsJustified li {
+    margin-top: 3px;
+}
+
+#trav-tabsJustified li:first-child {
+    margin-top: 15px;
+}
+
+#trav-tabsJustified li .trav-cat.active {
+    background: #615EFF !important;
+    height: 49px !important;
+    border-radius: 10px !important;
+}
+
+#trav-tabsJustified li a.active .black-image {
+    display: none;
+}
+
+#trav-tabsJustified li a.active .white-image {
+    display: initial !important;
+}
+
+.trav-cat {
+    font-size: 17px;
+    line-height: 20px;
+    padding: 10px !important;
+    padding-left: 18px !important;
+}
+
+.trav-sbar {
+    height: 42px;
+    background: #F0F1F3 !important;
+    box-shadow: 0px 4px 84px rgba(0, 0, 0, 0.03);
+    border-radius: 10px;
+}
+
+.trav-sbar-input {
+    text-align: left !important;
+    height: 42px;
+    background: #F0F1F3 !important;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+}
+
+.trav-sbar-input::placeholder {
+    color: #B7B2BD;
+}
+
+.trav-bton {
+    width: 114px;
+    height: 45px;
+    background: #615EFF;
+    color: #200E32;
+    border-radius: 9px;
+    color: #FFFFFF;
+    font-size: 14px;
+}
+
+.trav-drag-drop1 {
+    background: transparent;
+    border: 1px solid rgba(196, 196, 196, 0.53);
+    box-sizing: border-box;
+    border-radius: 8px;
+    position: relative;
+}
+
+.trav-drag-drop2 {
+    background: transparent;
+    border: 1px solid rgba(196, 196, 196, 0.53);
+    box-sizing: border-box;
+    border-radius: 8px;
+    position: relative;
+}
+
+.trav-info {
+    border-color: #615EFF;
+    color: #615EFF;
+    border-radius: 9px;
+    font-size: 11px;
+    display: inline-block;
+    height: 40px;
+    width: 100%;
+    background-color: transparent;
+}
+
+.trav-drag-file-input {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+    opacity: 0;
+}
+
+.rotate {
+    /* Safari */
+    -webkit-transform: rotate(-90deg);
+    /* Firefox */
+    -moz-transform: rotate(-90deg);
+    /* IE */
+    -ms-transform: rotate(-90deg);
+    /* Opera */
+    -o-transform: rotate(-90deg);
+    /* All */
+    transform: rotate(-90deg);
+}
+
+.trav-add-client-btn1 {
+    width: 244px !important;
+    height: 52px !important;
+    background: #615EFF !important;
+    font-size: 15px;
+    line-height: 16px;
+    border-radius: 7px;
+    color: #ffffff;
+    border: none;
+    outline: none !important;
+}
+
+.set-tbl-pad tr, .set-tbl-pad tr td {
+    padding-top: 20px !important;
+}
+
+.trav-col-div {
+    width: 20%;
+    flex: 0 0 20%;
+    max-width: 20%;
+}
+
+.trav-col-div1 {
+    width: 4.534%;
+    height: 100%;
+}
+
+.trav-col-div2 {
+    width: 92.5%;
+}
+
+.fs-17-1 {
+    font-size: 17px;
+    line-height: 19px;
+}
+
+.trav-textarea {
+    resize: none !important;
+}
+
+.trav-modal-header {
+    border-bottom: none !important;
+    border-radius: 15px;
+}
+
+.trav-modal-content {
+    max-height: 676px;
+    width: 573px;
+}
+
+.checkbox-primary1 {
+    width: 26.5px !important;
+    height: 26.5px !important;
+}
+
+.checkbox-primary1:checked:before {
+    color: black !important;
+    top: 0px !important;
+    left: 5px !important;
+    font-size: 15px !important;
+}
+
+.checkbox-primary1:checked {
+    border: 1px solid black !important;
+}
+
+.checkbox-primary2 {
+    width: 18.5px !important;
+    height: 18.5px !important;
+}
+
+.checkbox-primary2:checked:before {
+    color: #615EFF !important;
+    top: 0px !important;
+    left: 3px !important;
+    font-size: 11px !important;
+}
+
+.checkbox-primary2:checked {
+    border: 1px solid #615EFF!important;
+}
+
+@media screen and (max-width: 1450px) {
+    .fs-17-1 {
+        font-size: 16px;
+        line-height: 18px;
+    }
+}
+
+@media only screen and (max-width: 1170px) and (min-width: 990px) {
+    .padd-null {
+        padding: 0 !important;
+    }
+}
+
+@media screen and (max-width: 1080px) {
+    .check {
+        font-size: 10px !important;
+        padding-top: 05px !important;
+    }
+    .set-mar {
+        margin-right: 10px !important;
+    }
+    .side-style {
+        padding-left: 10px;
+    }
+    .fs-17-1 {
+        font-size: 09px !important;
+        line-height: 17px;
+    }
+    #trav-tabsJustified li {
+        margin-top: 2px;
+    }
+    .trav-cat {
+        font-size: 13px;
+        line-height: 15px;
+    }
+    .trav-pd-inp {
+        padding: 3px !important;
+        padding-left: 6px !important;
+        height: 31px !important;
+    }
+    .trav-pd-sel {
+        padding: 2px !important;
+        height: 30px !important;
+    }
+}
+
+@media screen and (max-width: 890px) {
+    .trav-cat {
+        font-size: 13px;
+        line-height: 15px;
+        padding: 10px !important;
+    }
+    .trav-pd-inp {
+        padding: 2px !important;
+        padding-left: 4px !important;
+        height: 26px !important;
+    }
+    .trav-pd-sel {
+        padding: 0px !important;
+        height: 25px !important;
+    }
+    #trav-tabsJustified li {
+        margin-top: 0px;
+    }
+    #trav-tabsJustified li .trav-cat.active {
+        padding-right: 15px !important;
+        height: 40px !important;
+    }
+    #trav-tabsJustified li {
+        margin-left: 0px;
+        margin-top: 05px;
+    }
+    .trav-sbar {
+        height: 32px;
+        margin-left: 15px !important;
+    }
+    .trav-sbar-input {
+        height: 32px;
+    }
+    #set-wid {
+        width: 170px !important;
+    }
+    .trav-set4 {
+        padding-right: 12px !important;
+    }
+    .trav-drag-drop1 {
+        height: 127px !important;
+    }
+    .trav-drag-drop2 {
+        height: 90px !important;
+    }
+    .main-row {
+        height: 40px !important;
+    }
+    .trav-bton {
+        width: 75px !important;
+        height: 35px !important;
+        background: #615EFF;
+        color: #200E32;
+        border-radius: 9px;
+        color: #FFFFFF;
+        font-size: 14px;
+    }
+    .checkbox-primary1 {
+        width: 14.5px !important;
+        height: 14.5px !important;
+    }
+    .checkbox-primary1:checked:before {
+        color: black !important;
+        top: 0px !important;
+        left: 2px !important;
+        font-size: 09px !important;
+    }
+    .checkbox-primary1:checked {
+        border: 1px solid black !important;
+    }
+    .check {
+        font-size: 10px !important;
+        padding-top: 05px !important;
+    }
+    .set-mar {
+        margin-right: 05px !important;
+    }
+    .set-mar1 {
+        margin-left: 0 !important;
+    }
+    .set-pad {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+    .set-pad-r {
+        padding-right: 0 !important;
+    }
+    .trav-set-img {
+        width: 120px !important;
+        height: 44px !important;
+    }
+    .set-img1 {
+        height: 90px !important;
+    }
+    .set-img2 {
+        width: 25px;
+        height: 25px;
+    }
+    .set-img3 {
+        width: 60px !important;
+        height: 30px !important;
+    }
+    .set-img4 {
+        width: 40px !important;
+    }
+    .set-height {
+        height: 35px !important;
+    }
+    .set-col-height {
+        height: 90px !important;
+    }
+    .set-col-height1 {
+        height: 129px !important;
+    }
+    .pad-top {
+        padding-top: 5px !important;
+    }
+    .img-set {
+        width: 70px;
+    }
+    .trav-set {
+        margin: 0 !important;
+    }
+    .mar-top {
+        margin-top: 10px !important;
+    }
+    .fs-17-1 {
+        font-size: 09px !important;
+        line-height: 15px;
+    }
+    .trav-add-client-btn1 {
+        width: 108px !important;
+        height: 40px !important;
+        background: #615EFF !important;
+        font-size: 15px;
+        line-height: 16px;
+        border-radius: 7px;
+        color: #ffffff;
+        border: none;
+        outline: none !important;
+    }
+}

@@ -1,7 +1,6 @@
-
 .sup-side-style {
-    border-right: 1px solid rgba(209, 209, 209, 0.5); 
-    width: 21.2%; 
+    border-right: 1px solid rgba(209, 209, 209, 0.5);
+    width: 21.2%;
 }
 
 .sup-side-style nav {
@@ -41,7 +40,7 @@
 }
 
 #sup-tabsJustified li a.active .white-image {
-    display:initial !important;
+    display: initial !important;
 }
 
 .sup-cat {
@@ -71,7 +70,7 @@
 }
 
 .sup-sub-cat div {
-    font-size: 15px; 
+    font-size: 15px;
     line-height: 18px;
     height: 100%;
     align-items: center;
@@ -80,7 +79,7 @@
 
 .sup-sub-cat-sub {
     margin-left: 55px;
-    font-size: 13px; 
+    font-size: 13px;
     line-height: 15px;
     padding: 5px !important;
     padding-left: 24px !important;
@@ -110,34 +109,34 @@
 }
 
 .sup-add-client-btn {
-    width: 254px; 
+    width: 254px;
     height: 49px;
-    background: #615EFF !important; 
+    background: #615EFF !important;
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
     border-radius: 9px;
-    margin-left:35px;
-    margin-right:15px;
+    margin-left: 35px;
+    margin-right: 15px;
     padding-left: 35px;
 }
 
 .sup-add-client-btn1 {
-    width: 270px; 
+    width: 270px;
     height: 49px;
-    background: #615EFF !important; 
+    background: #615EFF !important;
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
     border-radius: 9px;
-    margin-left:35px;
+    margin-left: 35px;
     padding-left: 35px;
 }
 
 .sup-date-range {
-    min-width: 229px; 
-    height: 49px; 
-    border-radius: 10px; 
+    min-width: 229px;
+    height: 49px;
+    border-radius: 10px;
     color: #200E32;
     background: white;
 }
@@ -166,7 +165,6 @@
         max-width: 573px !important;
         margin: 2.75rem auto;
     }
-    
     .modal-dialog-centered-height {
         min-height: calc(100% - (2.75rem * 2));
     }
@@ -177,7 +175,6 @@
         max-width: 500px;
         margin: 2.75rem auto;
     }
-
     .modal-dialog-centered-height {
         min-height: calc(100% - (2.75rem * 2));
     }
@@ -228,7 +225,7 @@
 div.link-hover div div a button:hover {
     border: 2px solid #615EFF !important;
     box-shadow: 0px 4px 84px rgba(0, 0, 0, 0.03);
-} 
+}
 
 .pd-inp {
     padding: 3px !important;
@@ -237,10 +234,10 @@ div.link-hover div div a button:hover {
 }
 
 .sup-bton {
-	width: 114px;
+    width: 114px;
     height: 45px;
     background: #615EFF;
-    border-radius:9px;
+    border-radius: 9px;
     color: #FFFFFF;
     font-size: 14px;
     text-align: left;
@@ -255,235 +252,192 @@ div.link-hover div div a button:hover {
 }
 
 .sup-add-sign {
-    height: 127px; 
-    width:100%; 
-    display: grid; 
+    height: 127px;
+    width: 100%;
+    display: grid;
     padding: 12px;
 }
 
 .sup-info {
     border-color: #615EFF;
-    color:#615EFF;
+    color: #615EFF;
     border-radius: 9px;
     background-color: transparent !important;
-    font-size:11px;
-    display:inline-block;
-    height:40px;
-    width:100%;
+    font-size: 11px;
+    display: inline-block;
+    height: 40px;
+    width: 100%;
 }
 
 @media screen and (max-width: 1450px) {
     .sup-box-height-240 {
         height: 220px;
     }
-
     .sup-sub-cat div {
-        font-size: 12px; 
+        font-size: 12px;
         line-height: 14px;
     }
-    
     .sup-sub-cat-sub {
-        font-size: 12px; 
+        font-size: 12px;
         line-height: 14px;
     }
-
     .sup-add-client-btn {
         width: 230px;
         margin-left: 30px;
         padding-left: 20px;
     }
-
     .sup-add-client-btn1 {
         width: 260px;
         margin-left: 30px;
     }
-
     .sup-client-text {
         margin-top: 16px;
     }
-
     .custom-pl-5 {
         padding-left: 25px !important;
     }
-    
     .custom-mr-5 {
         margin-right: 15px !important;
     }
-    
     .custom-pl-4 {
         padding-left: 15px !important;
     }
-    
     .custom-pr-4 {
         padding-right: 15px !important;
     }
-    
     .sup-three-dots {
         width: 27px;
         height: 27px;
     }
-
 }
 
 @media screen and (max-width: 1350px) {
     .sup-client-text {
         margin-top: 14px;
     }
-    
     .sup-add-client-btn {
         width: 190px;
     }
-
     .padding-4 {
         padding: 16px !important;
     }
-
 }
 
 @media screen and (max-width: 1080px) {
-
     .container-fluid .sup-drag-drop1 {
         height: 126px !important;
     }
-    
     .sup-drag-drop1.sup-add-sign {
         height: 80px !important;
         padding: 6px !important;
     }
-
     #sup-tabsJustified li {
         margin-top: 2px;
     }
-    
     .sup-cat div {
-        font-size: 13px; 
+        font-size: 13px;
         line-height: 16px;
     }
-
     .sup-sub-cat {
         padding: 8px;
         padding-left: 10%;
     }
-
     .sup-sub-cat div {
-        font-size: 9px; 
+        font-size: 9px;
         line-height: 12px;
     }
-     
     .sup-sub-cat-sub {
         margin-left: 24px;
-        font-size: 12px; 
+        font-size: 12px;
         line-height: 14px;
         padding-left: 22px !important;
     }
-
     .modal-body-height {
         height: 350px;
     }
-
     .sup-add-client-btn {
-        width: 160px; 
+        width: 160px;
         font-size: 12px;
         line-height: 14px;
         margin-left: 15px;
         padding-left: 20px;
         margin-right: 5px;
     }
-
     .sup-add-client-btn1 {
-        width: 200px; 
+        width: 200px;
         font-size: 12px;
         line-height: 14px;
         margin-left: 20px;
         padding-left: 20px;
         margin-right: 5px;
     }
-
     .sup-date-range {
         min-width: 200px;
     }
-
     .sup-client-text {
         margin-top: 10px;
     }
-
     .col-span-sm-3 {
         padding: 05px !important;
     }
-    
     .padding-3 {
         padding: 12px !important;
     }
-
     .padding-4 {
         padding: 12px !important;
     }
-
     .pd-inp {
         padding: 3px !important;
         padding-left: 6px !important;
         height: 31px !important;
     }
-
     .sup-bton {
         width: 80px !important;
         height: 30px !important;
     }
-
     .pd-sel {
         padding: 2px !important;
         height: 30px !important;
     }
-
     .sup-three-dots {
         width: 24px;
         height: 24px;
     }
-
 }
 
 @media screen and (max-width: 890px) {
-    
     .sup-side-style nav {
         padding-left: 5%;
         padding-right: 5%;
-    }    
-
+    }
     .sup-date-range {
         min-width: 175px;
     }
-
     .sup-cat div {
-        font-size: 12px; 
+        font-size: 12px;
         line-height: 15px;
     }
-    
     .sup-sub-cat {
         padding: 7px;
         padding-left: 8%;
     }
-    
     .sup-sub-cat-sub {
         margin-left: 24px;
-        font-size: 10px; 
+        font-size: 10px;
         line-height: 12px;
         padding: 5px !important;
         padding-left: 20px !important;
     }
-
     #sup-tabsJustified {
         margin-top: 8px;
     }
-
     #sup-tabsJustified li {
         margin-top: 0px;
     }
-    
     #sup-tabsJustified li {
         margin-left: 0px;
         margin-top: 5px;
     }
-
     .sup-add-client-btn {
         width: 120px;
         font-size: 10px;
@@ -492,11 +446,9 @@ div.link-hover div div a button:hover {
         margin-right: 4px;
         padding-left: 5px;
     }
-
     .sup-add-client-btn img {
         margin-left: 8px !important;
     }
-
     .sup-add-client-btn1 {
         width: 155px;
         font-size: 9px;
@@ -505,72 +457,55 @@ div.link-hover div div a button:hover {
         margin-right: 4px;
         padding-left: 5px;
     }
-
     .sup-add-client-btn1 img {
         margin-left: 8px !important;
     }
-
     .sup-sbar {
         height: 32px;
         margin-left: 15px !important;
     }
-    
     .sup-three-dots {
         width: 20px;
         height: 20px;
     }
-
     .sup-client-text {
         margin-top: 5px;
     }
-
     .sup-box-height-240 {
         height: 180px;
     }
-
     .modal-body-height {
         height: 310px;
     }
-
     .modal-content-width {
         width: 450px !important;
     }
-
     .modal-dialog-width {
         width: 420px !important;
     }
-
     .padding-3 {
         padding: 10px !important;
     }
-
     .pd-inp {
         padding: 2px !important;
         padding-left: 4px !important;
         height: 26px !important;
     }
-
     .pd-sel {
         padding: 0px !important;
         height: 25px !important;
     }
-
     .sup-bton {
         width: 67px !important;
         height: 26px !important;
     }
-
 }
-
-
 
 /*
     ******************************************************************
     ************************** General Style *************************
     ******************************************************************
 */
-
-
 
 * {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -584,7 +519,24 @@ div.link-hover div div a button:hover {
     src: local('Amalfi Coast'), url('https://fonts.cdnfonts.com/s/30779/Amalfi Coast.woff') format('woff');
 }
 
-.text-font-normal {
+a:-webkit-any-link {
+    text-decoration: none !important;
+}
+
+a:link {
+    color: #615EFF;
+}
+
+input[type="date"]::placeholder {
+    color: rgba(196, 196, 196, 0.5);
+}
+
+label {
+    margin-bottom: .7rem !important;
+    margin-top: .6rem !important;
+}
+
+.text-font-normal, .fw-normal {
     font-weight: normal;
     color: #200E32;
 }
@@ -597,6 +549,11 @@ div.link-hover div div a button:hover {
     padding: 15px !important;
 }
 
+.fs-10 {
+    font-size: 10px !important;
+    line-height: 12px !important;
+}
+
 .fs-11 {
     font-size: 11px !important;
     line-height: 13px !important;
@@ -605,6 +562,11 @@ div.link-hover div div a button:hover {
 .fs-12 {
     font-size: 12px !important;
     line-height: 14px !important;
+}
+
+.fs-13 {
+    font-size: 13px !important;
+    line-height: 15px !important;
 }
 
 .fs-14 {
@@ -637,9 +599,24 @@ div.link-hover div div a button:hover {
     line-height: 21px;
 }
 
-label {
-    margin-bottom: .7rem !important;
-    margin-top: .6rem !important;
+.fs-20 {
+    font-size: 20px;
+    line-height: 22px;
+}
+
+.fs-22 {
+    font-size: 22px;
+    line-height: 24px;
+}
+
+.fs-23 {
+    font-size: 23px;
+    line-height: 25px;
+}
+
+.fs-27 {
+    font-size: 27px;
+    line-height: 29px;
 }
 
 .fw-400 {
@@ -654,33 +631,46 @@ label {
     border-radius: 10px !important;
 }
 
+.tc-silver {
+    color: #C4C4C4;
+}
+
+.tc-blue {
+    color: #615EFF;
+}
+
 .tc-grey {
     color: rgba(92, 87, 97, 0.83);
 }
 
-#style-2::-webkit-scrollbar-track
-{
-	border-radius: 10px;
-	background-color: #F5F5F5;
+.tc-purple {
+    color: #615EFF !important;
 }
 
-#style-2::-webkit-scrollbar
-{
-	width: 4px;
+.tc-red {
+    color: #E51D1D;
+}
+
+#style-2::-webkit-scrollbar-track {
+    border-radius: 10px;
+    background-color: #F5F5F5;
+}
+
+#style-2::-webkit-scrollbar {
+    width: 4px;
     height: 4px;
     border-radius: 10px;
-	background-color: #F5F5F5;
+    background-color: #F5F5F5;
 }
 
-#style-2::-webkit-scrollbar-thumb
-{
-	border-radius: 10px;
-	box-shadow: inset 0 0 6px rgba(0,0,0,.3);
-	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
-	background-color: rgba(97, 94, 255, 1);
+#style-2::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+    background-color: rgba(97, 94, 255, 1);
 }
 
-.table td {
+.table td, .table th {
     border-top: none !important;
 }
 
@@ -722,7 +712,7 @@ label {
     border-bottom: 1px solid #dee2e6!important;
 }
 
-.tbl-role thead td{
+.tbl-role thead td {
     border-bottom: none !important;
 }
 
@@ -773,16 +763,16 @@ label {
 }
 
 .checkbox:checked:before {
-   position: absolute;
-   left: 1.5px;
-   top: -1.5px;
-   display: block;
-   content: '\2713';
-   text-align: center;
-   color: #44B328;
-   font-family: Arial;
-   font-size: 12px;
-   font-weight: 800;
+    position: absolute;
+    left: 1.5px;
+    top: -1.5px;
+    display: block;
+    content: '\2713';
+    text-align: center;
+    color: #44B328;
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: 800;
 }
 
 .checkbox-primary {
@@ -810,10 +800,10 @@ label {
     left: 3.5px !important;
     top: 1px !important;
     font-size: 12px !important;
- }
- 
+}
 
 /* The switch - the box around the slider */
+
 .switch {
     position: relative;
     display: inline-block;
@@ -822,6 +812,7 @@ label {
 }
 
 /* Hide default HTML checkbox */
+
 .switch input {
     opacity: 0;
     width: 0;
@@ -829,6 +820,7 @@ label {
 }
 
 /* The slider */
+
 .slider {
     position: absolute;
     cursor: pointer;
@@ -853,21 +845,22 @@ label {
     transition: .4s;
 }
 
-input:checked + .slider {
+input:checked+.slider {
     background-color: #615EFF;
 }
 
-input:focus + .slider {
+input:focus+.slider {
     box-shadow: 0 0 1px #615EFF;
 }
 
-input:checked + .slider:before {
+input:checked+.slider:before {
     -webkit-transform: translateX(19px);
     -ms-transform: translateX(19px);
     transform: translateX(19px);
 }
 
 /* Rounded sliders */
+
 .slider.round {
     border-radius: 34px;
 }
@@ -877,39 +870,61 @@ input:checked + .slider:before {
 }
 
 @media screen and (max-width: 1450px) {
+    .fs-10 {
+        font-size: 9px !important;
+        line-height: 11px !important;
+    }
     .fs-11 {
         font-size: 10px !important;
         line-height: 11.5px !important;
     }
-    
     .fs-12 {
         font-size: 11px !important;
         line-height: 13px !important;
     }
-    
+    .fs-13 {
+        font-size: 12px !important;
+        line-height: 14px !important;
+    }
     .fs-14 {
         font-size: 13px !important;
         line-height: 15px !important;
     }
-    
     .fs-15 {
         font-size: 14px !important;
         line-height: 16px !important;
     }
-    
     .fs-16 {
         font-size: 15px !important;
         line-height: 17px !important;
     }
-    
     .fs-17 {
-        font-size: 16px !important;
-        line-height: 18px !important;
+        font-size: 16px;
+        line-height: 18px;
     }
-
+    .fs-18 {
+        font-size: 17px;
+        line-height: 19px;
+    }
     .fs-19 {
         font-size: 18px;
         line-height: 20px;
+    }
+    .fs-20 {
+        font-size: 19px;
+        line-height: 20px;
+    }
+    .fs-22 {
+        font-size: 21px;
+        line-height: 23px;
+    }
+    .fs-23 {
+        font-size: 22px;
+        line-height: 24px;
+    }
+    .fs-27 {
+        font-size: 25px;
+        line-height: 27px;
     }
 }
 
@@ -920,48 +935,75 @@ input:checked + .slider:before {
     }
 }
 
-@media screen and (max-width: 1080px) {
+@media screen and (max-width: 1280px) {
+    .fs-10 {
+        font-size: 8px !important;
+        line-height: 10px !important;
+    }
     .fs-11 {
         font-size: 9px !important;
         line-height: 11px !important;
     }
-    
     .fs-12 {
         font-size: 10px !important;
         line-height: 12px !important;
-    }    
-    
+    }
+    .fs-13 {
+        font-size: 11px !important;
+        line-height: 13px !important;
+    }
     .fs-14 {
         font-size: 12px !important;
         line-height: 14px !important;
     }
-    
     .fs-15 {
         font-size: 13px !important;
         line-height: 15px !important;
     }
-    
     .fs-16 {
         font-size: 14px !important;
         line-height: 16px !important;
     }
-    
     .fs-17 {
-        font-size: 11px !important;
-        line-height: 17px !important;
+        font-size: 14px !important;
+        line-height: 16px !important;
     }
-    
     .fs-18 {
         font-size: 16px !important;
         line-height: 18px !important;
     }
-    
+    .fs-19 {
+        font-size: 17px;
+        line-height: 19px;
+    }
+    .fs-20 {
+        font-size: 18px;
+        line-height: 20px;
+    }
+    .fs-22 {
+        font-size: 20px;
+        line-height: 22px;
+    }
+    .fs-23 {
+        font-size: 21px;
+        line-height: 23px;
+    }
+    .fs-27 {
+        font-size: 24px;
+        line-height: 26px;
+    }
+}
+
+@media screen and (max-width: 1080px) {
+    .fs-17 {
+        font-size: 11px !important;
+        line-height: 17px !important;
+    }
     /* The switch - the box around the slider */
     .switch {
         width: 34px;
         height: 20px;
     }
-    
     .slider:before {
         position: absolute;
         content: "";
@@ -970,85 +1012,89 @@ input:checked + .slider:before {
         left: 2px;
         bottom: 2px;
     }
-    
-    input:checked + .slider:before {
+    input:checked+.slider:before {
         -webkit-transform: translateX(14px);
         -ms-transform: translateX(14px);
         transform: translateX(14px);
-    }    
+    }
 }
 
 @media screen and (max-width: 890px) {
-    .fs-11 {
-        font-size: 7px !important;
-        line-height: 9px !important;
-    }
-    
-    .fs-12 {
+    .fs-10 {
         font-size: 8px !important;
         line-height: 10px !important;
-    }    
-    
+    }
+    .fs-11 {
+        font-size: 8px !important;
+        line-height: 10px !important;
+    }
+    .fs-12 {
+        font-size: 9px !important;
+        line-height: 11px !important;
+    }
+    .fs-13 {
+        font-size: 9px !important;
+        line-height: 11px !important;
+    }
     .fs-14 {
         font-size: 10px !important;
         line-height: 12px !important;
     }
-    
     .fs-15 {
         font-size: 11px !important;
         line-height: 13px !important;
     }
-    
     .fs-16 {
         font-size: 12px !important;
         line-height: 14px !important;
     }
-    
     .fs-17 {
         font-size: 13px !important;
         line-height: 15px !important;
     }
-    
     .fs-18 {
         font-size: 14px !important;
         line-height: 16px !important;
     }
-    
     .fs-19 {
-        font-size: 12px;
+        font-size: 15px;
         line-height: 17px;
     }
-    
+    .fs-20 {
+        font-size: 16px;
+        line-height: 18px;
+    }
+    .fs-22 {
+        font-size: 18px;
+        line-height: 20px;
+    }
+    .fs-23 {
+        font-size: 19px;
+        line-height: 21px;
+    }
+    .fs-27 {
+        font-size: 19px;
+        line-height: 21px;
+    }
     .tbl thead tr td {
         padding-left: 15px;
     }
-    
     .tbl tbody tr td {
         padding: 15px;
     }
-    
     .checkbox-primary {
         width: 14px !important;
         height: 14px !important;
     }
-    
     .checkbox-primary:checked:before {
         top: 0px !important;
         left: 0px !important;
     }
-    
     label {
         margin-bottom: .5rem !important;
         margin-top: 0 !important;
     }
-
     .h-35 {
         height: 30px !important;
     }
 }
-
-
-
-
-
-

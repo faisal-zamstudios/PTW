@@ -1,0 +1,595 @@
+* {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+}
+
+.pad-l-set {
+    padding-left: 15px !important;
+}
+
+.general-btn {
+    height: 61px;
+}
+
+.nav-pills .nav-link.active {
+    background-color: #ffffff !important;
+}
+
+.admin-side-style {
+    border-right: 1px solid rgba(209, 209, 209, 0.5);
+    width: 21.007%;
+}
+
+.admin-side-style ul#admin-tabsJustified {
+    width: 100%;
+    padding-left: 10.9%;
+    padding-right: 11%;
+}
+
+#admin-tabsJustified li {
+    margin-top: 3px;
+}
+
+#admin-tabsJustified li:first-child {
+    margin-top: 15px;
+}
+
+#admin-tabsJustified li .admin-cat.active {
+    background: #615EFF !important;
+    border-radius: 10px !important;
+}
+
+#admin-tabsJustified1 li .admin-sub-cat.active, #admin-tabsJustified2 li .admin-sub-cat-sub.active, #admin-tabsJustified3 li .admin-sub-cat-sub.active {
+    color: #615EFF !important;
+    background: transparent !important;
+}
+
+#admin-tabsJustified li a.active .black-image {
+    display: none;
+}
+
+#admin-tabsJustified li a.active .white-image {
+    display: initial !important;
+}
+
+#admin-tabsJustified1 li a.active .black-image {
+    display: none !important;
+}
+
+#admin-tabsJustified1 li a.active .white-image {
+    display: initial !important;
+}
+
+.admin-cat {
+    font-size: 17px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    padding: 14px !important;
+    padding-left: 18px !important;
+}
+
+.admin-sub-cat {
+    margin-left: 8% !important;
+    font-size: 15px;
+    line-height: 18px;
+    padding: 10px;
+    padding-left: 11.2%;
+    width: 100%;
+}
+
+.admin-sub-cat-sub {
+    margin-left: 55px;
+    font-size: 13px;
+    line-height: 15px;
+    padding: 5px !important;
+    padding-left: 24px !important;
+}
+
+.admin-sbar {
+    background: #F0F1F3 !important;
+    box-shadow: 0px 4px 84px rgba(0, 0, 0, 0.03);
+    border-radius: 10px;
+}
+
+.admin-sbar button {
+    background: #F0F1F3 !important;
+}
+
+.admin-sbar-input {
+    text-align: left !important;
+    height: 100% !important;
+    background: #F0F1F3 !important;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+}
+
+.col-div {
+    width: 20%;
+    flex: 0 0 20%;
+    max-width: 20%;
+}
+
+.admin-sbar-input::placeholder {
+    color: #B7B2BD;
+}
+
+.admin-add-client-btn {
+    width: 254px;
+    height: 49px;
+    background: #615EFF !important;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    border-radius: 10px;
+}
+
+.admin-add-client-btn1 {
+    width: 224px;
+    height: 49px;
+    color: #615EFF;
+    background: transparent !important;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    border-radius: 10px;
+    border: 2px solid #615EFF;
+}
+
+.admin-add-client-btn2 {
+    width: 224px;
+    height: 49px;
+    background: #615EFF !important;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    border-radius: 10px;
+}
+
+.admin-add-client-btn3 {
+    width: 224px;
+    height: 49px;
+    background: #615EFF !important;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    border-radius: 10px;
+}
+
+.admin-client-text {
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 13px;
+    margin-top: 20px;
+}
+
+.admin-modal-header {
+    border-bottom: none !important;
+    border-radius: 15px;
+}
+
+.admin-modal-body {
+    max-height: 492px;
+}
+
+@media (min-width: 1080px) {
+    .admin-modal-dialog {
+        max-width: 573px !important;
+        margin: 2.75rem auto;
+    }
+    .admin-modal-dialog-centered {
+        min-height: calc(100% - (2.75rem * 2));
+    }
+}
+
+@media (min-width: 700px) {
+    .admin-modal-dialog {
+        max-width: 500px;
+        margin: 2.75rem auto;
+    }
+    .admin-modal-dialog-centered {
+        min-height: calc(100% - (2.75rem * 2));
+    }
+}
+
+#clients div div div div ul li {
+    width: 100%;
+}
+
+#clients div div div div ul li {
+    width: 100%;
+}
+
+.admin-dropdown-menu li div label {
+    vertical-align: middle !important;
+    margin-left: 5px;
+}
+
+.admin-dropdown-menu.show {
+    top: 30px !important;
+    height: 180px;
+    border-radius: 10px;
+}
+
+.drop1.show {
+    top: 0px !important;
+    height: 100px;
+    border-radius: 10px;
+}
+
+.admin-checkbox {
+    position: relative;
+    width: 19px;
+    height: 19px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -o-appearance: none;
+    appearance: none;
+    background: transparent;
+    border: 1px solid hsl(0, 0%, 82%);
+    border-radius: 5px;
+    margin: 0;
+    outline: none;
+    transition: 0.5s ease;
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.admin-checkbox:checked {
+    border: 1px solid #44B328;
+    background-color: #fff;
+}
+
+.admin-checkbox:checked:before {
+    position: absolute;
+    left: 2.5px;
+    top: -1.5px;
+    display: block;
+    content: '\2713';
+    text-align: center;
+    color: #44B328;
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: 800;
+}
+
+.checkbox1 {
+    position: relative;
+    width: 18.5px;
+    height: 18.5px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -o-appearance: none;
+    appearance: none;
+    background: transparent;
+    border: 1px solid hsl(0, 0%, 82%);
+    border-radius: 5px;
+    margin: 0;
+    outline: none;
+    transition: 0.5s ease;
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.checkbox1-circle {
+    border-radius: 50% !important;
+    width: 20px !important;
+    height: 20px !important;
+}
+
+.checkbox1:checked {
+    border: 1px solid #615EFF;
+    background-color: #fff;
+}
+
+.checkbox1:checked:before {
+    position: absolute;
+    left: 2px;
+    top: -1.5px;
+    display: block;
+    content: '\2713';
+    text-align: center;
+    color: #615EFF;
+    font-family: Arial;
+    font-size: 13px;
+    font-weight: 800;
+}
+
+.checkbox1-circle:checked:before {
+    left: 3.5px !important;
+    top: 1px !important;
+    font-size: 12px !important;
+}
+
+.admin-drag-drop {
+    background: rgba(97, 94, 255, 0.05);
+    border: 1.5px dashed rgba(97, 94, 255, 0.4);
+    border-radius: 15px;
+    position: relative;
+}
+
+.admin-drag-file-input {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+    opacity: 0;
+}
+
+@media screen and (max-width: 1450px) {
+    .admin-sub-cat {
+        font-size: 13px;
+        line-height: 16px;
+        margin-left: 5% !important;
+    }
+    .admin-sub-cat-sub {
+        font-size: 12px;
+        line-height: 14px;
+    }
+    .admin-add-client-btn {
+        width: 210px;
+    }
+    .admin-client-text {
+        font-size: 10px !important;
+        line-height: 12px;
+        margin-top: 16px;
+    }
+    .admin-pl-5 {
+        padding-left: 25px !important;
+    }
+    .admin-pl-4 {
+        padding-left: 15px !important;
+    }
+    .admin-pr-4 {
+        padding-right: 15px !important;
+    }
+}
+
+@media screen and (max-width: 1350px) {
+    .admin-client-text {
+        font-size: 9.5px;
+        line-height: 11px;
+        margin-top: 14px;
+    }
+}
+
+@media screen and (max-width: 1080px) {
+    #admin-tabsJustified li {
+        margin-top: 2px;
+    }
+    .container-fluid .admin-drag-drop1 {
+        height: 130px !important;
+    }
+    .admin-drag-drop1.text-center {
+        height: 80px !important;
+    }
+    .admin-cat {
+        font-size: 13px;
+        line-height: 15px;
+    }
+    .admin-sub-cat {
+        margin-left: 09px;
+        font-size: 11px;
+        line-height: 13px;
+    }
+    .admin-sub-cat-sub {
+        margin-left: 24px;
+        font-size: 12px;
+        line-height: 14px;
+        padding-left: 22px !important;
+    }
+    .admin-add-client-btn {
+        width: 190px;
+        margin: 10px;
+        font-size: 12px;
+        line-height: 14px;
+    }
+    .admin-add-client-btn3 {
+        width: 190px;
+        margin: 10px;
+        font-size: 12px;
+        line-height: 14px;
+    }
+    .admin-client-text {
+        font-size: 7.5px;
+        line-height: 9px;
+        margin-top: 10px;
+    }
+    .admin-bton {
+        width: 80px !important;
+        height: 30px !important;
+    }
+    .set5 {
+        margin-left: 0 !important;
+    }
+    .admin-modal-body {
+        height: 350px;
+    }
+}
+
+@media screen and (max-width: 890px) {
+    .admin-cat {
+        font-size: 13px;
+        line-height: 15px;
+        padding: 10px !important;
+        padding-top: 14px !important;
+        padding-bottom: 14px !important;
+    }
+    .pad-l-set {
+        padding-left: 06px !important;
+    }
+    .w-50 {
+        width: 50%;
+        height: 50% !important;
+    }
+    .width-set {
+        width: 50% !important;
+        height: 50% !important;
+    }
+    .set {
+        margin-right: 0 !important;
+        padding-left: 20px !important;
+    }
+    .set1 {
+        margin-right: 10px !important;
+    }
+    .set3 {
+        margin-right: 0 !important;
+    }
+    .set2 {
+        margin-left: 0 !important;
+    }
+    .set4 {
+        padding-left: 0 !important;
+    }
+    .set5 {
+        margin-left: 5px !important;
+    }
+    .set6 {
+        margin-top: 05px !important;
+    }
+    .set7 {
+        margin-left: 10px !important;
+    }
+    .set8 {
+        padding-left: 10px !important;
+    }
+    .img-16 {
+        height: 16px;
+    }
+    .img-14 {
+        width: 14px !important;
+        height: 14px !important;
+    }
+    .btn-set {
+        width: 50px;
+    }
+    .search-set {
+        height: 35px !important;
+    }
+    .inchange {
+        width: 25% !important;
+    }
+    #admin-tabsJustified li {
+        margin-top: 0px;
+    }
+    .admin-side-style ul {
+        padding-left: 3px !important;
+        padding-right: 3px !important;
+    }
+    #admin-tabsJustified li {
+        margin-left: 0px;
+        margin-top: 05px;
+    }
+    .admin-sub-cat {
+        margin-left: 06px;
+        font-size: 10px;
+        line-height: 12px;
+        padding: 10px !important;
+        padding-left: 5%;
+    }
+    .admin-sub-cat-sub {
+        margin-left: 24px;
+        font-size: 10px;
+        line-height: 12px;
+        padding: 5px !important;
+        padding-left: 12px !important;
+    }
+    .admin-add-client-btn {
+        width: 110px;
+        margin: 10px;
+        font-size: 08px;
+        line-height: 12px;
+    }
+    .admin-add-client-btn1 {
+        width: 135px;
+        margin: 10px;
+        font-size: 08px;
+        line-height: 12px;
+    }
+    .admin-add-client-btn2 {
+        width: 125px;
+        margin: 10px;
+        font-size: 08px;
+        line-height: 12px;
+    }
+    .admin-add-client-btn3 {
+        width: 100px;
+        margin: 10px;
+        font-size: 08px;
+        line-height: 12px;
+    }
+    .admin-sbar {
+        height: 32px !important;
+        margin-left: 15px !important;
+    }
+    .admin-sbar-input {
+        height: 32px !important;
+    }
+    .admin-client-text {
+        font-size: 08px !important;
+        line-height: 9.5px;
+        margin-top: 5px;
+    }
+    .p-t {
+        padding-top: 1rem !important;
+    }
+    .col-div {
+        width: 33%;
+        flex: 0 0 33%;
+        max-width: 33%;
+    }
+    .admin-modal-body {
+        height: 310px;
+    }
+    .modal-content {
+        width: 450px !important;
+    }
+    .admin-modal-dialog {
+        width: 420px;
+    }
+    .admin-bton {
+        width: 67px !important;
+        height: 26px !important;
+    }
+    .img-90 {
+        height: 90px !important;
+        width: 90px !important;
+    }
+}
+
+.red {
+    opacity: 0.5;
+}
+
+.admin-bton {
+    width: 114px;
+    height: 45px;
+    background: #615EFF;
+    border-radius: 9px;
+    color: #FFFFFF;
+    font-size: 14px;
+    text-align: center;
+}
+
+.admin-drag-drop1 {
+    background: transparent;
+    border: 1px solid rgba(196, 196, 196, 0.53);
+    box-sizing: border-box;
+    border-radius: 8px;
+    position: relative;
+}
+
+.admin-info {
+    border-color: #615EFF;
+    color: #615EFF;
+    border-radius: 9px;
+    background-color: transparent !important;
+    font-size: 11px;
+    display: inline-block;
+    height: 40px;
+    width: 100%;
+}

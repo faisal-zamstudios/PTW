@@ -1,0 +1,1036 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>PTW</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="http://fonts.cdnfonts.com/css/amalfi-coast" rel="stylesheet">
+    <link rel="stylesheet" href="../../css/administration.css" />
+    <link rel="stylesheet" href="../../css/responsable-des-travaux.css" />
+    <link rel="stylesheet" href="../../css/superAdmin.css" />
+    <link rel="stylesheet" href="../../css/travailleur.css" />
+    <link rel="stylesheet" href="../../css/utilisateur.css" />
+</head>
+
+<body style="background: #F7F8FA;">
+    <div class="container-fluid">
+        <div class="row">
+            <nav class="navbar w-100 bg-white pr-4"
+                style="padding-left: 3.056%; padding-right: 3.056%; padding-top: 14px; padding-bottom: 14px;">
+                <img src="../../img/Responsable/logo.png" width="99" height="37" />
+                <div style="width: 40.5%; display: flex;">
+                    <div class="input-group rdt-sbar" style="height: 42px; width: 68%; margin-right: 33.08%;">
+                        <input type="text" class="form-control text-dark rdt-sbar-input fs-14"
+                            placeholder="Search ..." />
+
+                        <div class="input-group-append">
+                            <button style="border: none; outline: none; border-radius: 10px;">
+                                &nbsp;
+                                <img src="../../img/Search.png" />
+                                &nbsp;
+                            </button>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div id="move">
+                    <div class="mt-1 mr-3 float-left">
+                        <img src="../../img/Responsable/Group 713.png" style="width: 23px; height: 17.25px;" />
+                    </div>
+                    <div class="mt-1 mr-3 float-left">
+                        <img src="../../img/French.png" style="width: 23px; height: 17.25px;" />
+                    </div>
+
+                    <div class="mt-1 mr-3 float-left">
+                        <img src="../../img/notification.png" style="width: 17px; height: 21px;" />
+                    </div>
+
+                    <div class="navbar p-0 float-left profile-link" data-toggle="tab" style="cursor: pointer;">
+                        <div class="mr-2">
+                            <img src="../../img/Group 262.png" style=" width: 37px; height: 37px;" />
+                        </div>
+
+                        <div class="my-auto fs-12">
+                            Christian COLLIN &nbsp;<i class="fa fa-chevron-down"></i>&nbsp;&nbsp;
+                        </div>
+                    </div>
+                </div>
+            </nav>
+
+
+            <div class="d-flex" style="width: 21.007%; border-right: 1px solid rgba(209, 209, 209, 0.5);">
+                <ul id="rdt-tabsJustified" class="nav nav-pills flex-column"
+                    style="height: 742px; width: 100%; margin-left: 11.9%; margin-right: 11.9%; margin-top: 50px;">
+                    <li class="nav-item">
+                        <a href="" id="permit-link" data-toggle="tab"
+                            class="nav-link small active rdt-cat text-font-normal">
+                            <img src="../../img/Work.png" style="width: 18px; height: 18px; display: none;"
+                                class="white-image" />
+                            <img src="../../img/Work (1).png" style="width: 18px; height: 18px;" class="black-image" />
+                            &nbsp;&nbsp;<span class="fs-17-1">Permit to Work</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="" id="observation-link" data-toggle="tab"
+                            class="nav-link small rdt-cat text-font-normal">
+                            <img src="../../img/Group 716.png" style="width: 20px; height: 18px; display: none;"
+                                class="white-image" />
+                            <img src="../../img/Group 716.png" style="width: 20px; height: 18px;" class="black-image" />
+                            &nbsp;&nbsp;<span class="fs-17-1">Observation</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="" id="workers-link" data-toggle="tab" class="nav-link small rdt-cat text-font-normal">
+                            <img src="../../img/3 User.png" style="width: 18px; height: 18px; display: none;"
+                                class="white-image" />
+                            <img src="../../img/3 User.png" style="width: 18px; height: 18px;" class="black-image" />
+                            &nbsp;&nbsp;<span class="fs-17-1">Workers</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="" id="edit-profile1" data-toggle="tab"
+                            class="nav-link small active rdt-cat text-font-normal">
+                            <img src="../../img/Responsable/Profile.png"
+                                style="width: 18px; height: 18px; display: none;" class="white-image" />
+                            <img src="../../img/Responsable/Profile.png" style="width: 18px; height: 18px;"
+                                class="black-image" />
+                            &nbsp;&nbsp;<span class="fs-12">Edit Profile</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="" id="logout" data-toggle="tab" class="nav-link small rdt-cat text-font-normal">
+                            <img src="../../img/Responsable/Logout.png"
+                                style="width: 18px; height: 18px; display: none;" class="white-image" />
+                            <img src="../../img/Responsable/Logout.png" style="width: 18px; height: 18px;"
+                                class="black-image" />
+                            &nbsp;&nbsp;<span class="fs-12" style="color: #E51D1D;">Se deconnecter</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="tab-content p-0" style="width: 78.99%;">
+
+                <div id="rdt-permit" style="margin-top: 50px;">
+                    <div class="container-fluid rdt-set4">
+                        <div class="navbar pl-5 pr-1 pt-3 mr-0 pb-1" style="margin-left: -15px;">
+                            <div class="rdt-date-range" id="set-wid"
+                                style="width: 229px; border-radius: 10px; color: #200E32;" class="bg-white">
+                                <div style="margin: 6.55%; margin-top: auto; margin-bottom: auto; height: 100%;"
+                                    class="navbar p-0 fs-14 fw-400">Dec 11, 2021 <img
+                                        src="../../img/Responsable/Arrow - Right.png" /> Jan 11, 2022</div>
+                            </div>
+                            <div class="mr-auto navbar p-0">
+                                <div class="fs-14 mr-2" style="margin-left: 20px;">
+                                    1 - 30 of 2000
+                                </div>
+                                <img class="ml-2 mr-auto" src="../../img/Responsable/Arrow - Right Square.png"
+                                    style="width: 21px; height: 21px;" />
+                                <img class="ml-2 mr-auto" src="../../img/Responsable/Arrow - Right Square (1).png"
+                                    style="width: 21px; height: 21px;" />
+                            </div>
+                            <div>
+                                <div class="navbar p-0">
+                                    <div class="mr-2 pr-3 rdt-set4">
+                                        <img src="../../img/Responsable/Filter 2.png">
+                                    </div>
+                                    <div class="ml-auto position-relative mr-0">
+                                        <input type="file" id="birthday"
+                                            style="opacity: 0.0; position: absolute; top: 0; left: 0; bottom: 0; right: 0; width: 100%; height:100%;" />
+                                        <img class="float-left mr-2" src="../../img/our clients/beneo/Vector.png"
+                                            style="width: 21px; height: 21px;" />
+                                        <div class="float-left fs-12 mr-3">
+                                            Import csv file
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="container-fluid">
+                        <div class="row pl-5 pr-4 pb-1 pt-3">
+                            <div style="overflow-x: scroll; width: 100%;" id="style-2">
+                                <table class="table tbl-csv">
+                                    <thead>
+                                        <tr class="fs-12">
+                                            <td scope="col"
+                                                style="border-top-left-radius: 10px; border-bottom-left-radius: 10px;">
+                                                #ID</td>
+                                            <td scope="col">STATUS <img class="pl-1"
+                                                    src="../../img/Responsable/Group 283.png"> </td>
+                                            <td scope="col">SOCIETY</td>
+                                            <td scope="col">TYPE</td>
+                                            <td scope="col">INITIATEUR</td>
+                                            <td scope="col">ZONE</td>
+                                            <td scope="col">NIVEAU</td>
+                                            <td scope="col">EQUIPMENT</td>
+                                            <td scope="col">CONSIGNATION</td>
+                                            <td scope="col">QR CODE</td>
+                                            <td scope="col"
+                                                style="border-top-right-radius: 10px; border-bottom-right-radius: 10px;">
+                                                <img src="../../img/Responsable/Setting.png" />
+                                            </td>
+                                        </tr>
+                                    </thead>
+                                    <tbody style="max-height: 383px; overflow-y: auto;">
+                                        <tr class=" fs-12">
+                                            <td class="fw-400">245178451</td>
+                                            <td class="fw-400" style="color: #FFFFFF;">
+                                                <div class="br-10 p-1 text-center"
+                                                    style="background:#EF3C3C; height: 26px; width: 67px;">
+                                                    <p class="rdt-p-t">Close</p>
+                                                </div>
+                                            </td>
+                                            <td class="fw-400"><img src="../../img/Responsable/iu.png" height="32px"
+                                                    width="73px"></td>
+                                            <td class="fw-400" style="color: #FFFFFF;">
+                                                <div class="br-10 p-1 text-center"
+                                                    style="background:#008CFF; height: 26px; width: 67px;">
+                                                    <p class="rdt-p-t">One shot</p>
+                                                </div>
+                                            </td>
+                                            <td scope="row" class="navbar p-0 pt-2">
+                                                <div>
+                                                    <img src="../../img/Responsable/1516540693104 1.png"
+                                                        style="border-radius: 50%;" width="26" height="26" />
+                                                </div>
+                                                <div class="mr-auto fs-12">
+                                                    &nbsp; Christian COLLIN
+                                                </div>
+                                            </td>
+                                            <td class="fw-400">Z01</td>
+                                            <td class="fw-400">+4</td>
+                                            <td class="fw-400">Valve 01</td>
+                                            <td scope="row" class="navbar p-0 pt-2">
+                                                <div>
+                                                    <img src="../../img/Responsable/Ellipse 3.png"
+                                                        style="border-radius: 50%;" width="36" height="36" />
+                                                </div>
+                                                <div class="mr-auto fs-12">
+                                                    &nbsp; Philippe Chaussée
+                                                </div>
+                                            </td>
+                                            <td class="fw-400" style="color: #FFFFFF;">
+                                                <a href="76.html" style="color:#FFF;">
+                                                    <div class="br-10 p-1 text-center"
+                                                        style="background:#615EFF; height: 26px; width: 67px;">
+                                                        <p class="rdt-p-t">Afficher</p>
+                                                    </div>
+                                                </a>
+                                            </td>
+                                            <td class="align-middle">
+                                                <img src="../../img/our clients/beneo/Group 814.png" />
+                                            </td>
+                                        </tr>
+                                        <tr class=" fs-12">
+                                            <td class="fw-400">233146755</td>
+                                            <td class="fw-400" style="color: #14142B;">
+                                                <div class="br-10 p-1 text-center"
+                                                    style="background:#FCF319; height: 26px; width: 67px;">
+                                                    <p class="rdt-p-t">Pending</p>
+                                                </div>
+                                            </td>
+                                            <td class="fw-400"><img src="../../img/Responsable/iu.png" height="32px"
+                                                    width="73px"></td>
+                                            <td class="fw-400" style="color: #FFFFFF;">
+                                                <div class="br-10 p-1 text-center"
+                                                    style="background:#008CFF; height: 26px; width: 67px;">
+                                                    <p class="rdt-p-t">One shot
+                                                </div>
+                            </div>
+                            </td>
+                            <td scope="row" class="navbar p-0 pt-2">
+                                <div>
+                                    <img src="../../img/Responsable/1516540693104 1.png" style="border-radius: 50%;"
+                                        width="26" height="26" />
+                                </div>
+                                <div class="mr-auto fs-12">
+                                    &nbsp; Christian COLLIN
+                                </div>
+                            </td>
+                            <td class="fw-400">Z01</td>
+                            <td class="fw-400">+4</td>
+                            <td class="fw-400">Valve 01</td>
+                            <td scope="row" class="navbar p-0 pt-2">
+                                <div>
+                                    <img src="../../img/Responsable/Ellipse 3.png" style="border-radius: 50%;"
+                                        width="36" height="36" />
+                                </div>
+                                <div class="mr-auto fs-12">
+                                    &nbsp; Philippe Chaussée
+                                </div>
+                            </td>
+                            <td class="fw-400" style="color: #FFFFFF;">
+                                <a href="76.html" style="color:#FFF;">
+                                    <div class="br-10 p-1 text-center"
+                                        style="background:#615EFF; height: 26px; width: 67px;">
+                                        <p class="rdt-p-t">Afficher</p>
+                                    </div>
+                                </a>
+                            </td>
+                            <td class="align-middle">
+                                <img src="../../img/our clients/beneo/Group 814.png" />
+                            </td>
+                            </tr>
+                            <tr class=" fs-12">
+                                <td class="fw-400">597875465</td>
+                                <td class="fw-400" style="color: #FFFFFF;">
+                                    <div class="br-10 p-1 text-center"
+                                        style="background:#EF3C3C; height: 26px; width: 67px;">
+                                        <p class="rdt-p-t">Close</p>
+                                    </div>
+                                </td>
+                                <td class="fw-400"><img src="../../img/Responsable/iu.png" height="32px" width="73px">
+                                </td>
+                                <td class="fw-400" style="color: #FFFFFF;">
+                                    <div class="br-10 p-1 text-center"
+                                        style="background:#008CFF; height: 26px; width: 67px;">
+                                        <p class="rdt-p-t">One shot</p>
+                                    </div>
+                                </td>
+                                <td scope="row" class="navbar p-0 pt-2">
+                                    <div>
+                                        <img src="../../img/Responsable/1516540693104 1.png" style="border-radius: 50%;"
+                                            width="26" height="26" />
+                                    </div>
+                                    <div class="mr-auto fs-12">
+                                        &nbsp; Christian COLLIN
+                                    </div>
+                                </td>
+                                <td class="fw-400">Z01</td>
+                                <td class="fw-400">+4</td>
+                                <td class="fw-400">Valve 01</td>
+                                <td scope="row" class="navbar p-0 pt-2">
+                                    <div>
+                                        <img src="../../img/Responsable/Ellipse 3.png" style="border-radius: 50%;"
+                                            width="36" height="36" />
+                                    </div>
+                                    <div class="mr-auto fs-12">
+                                        &nbsp; Philippe Chaussée
+                                    </div>
+                                </td>
+                                <td class="fw-400" style="color: #FFFFFF;">
+                                    <div class="br-10 p-1 text-center"
+                                        style="background:#615EFF; height: 26px; width: 67px;">
+                                        <p class="rdt-p-t"><a href="76.html" style=" color:#FFF;">Afficher</a></p>
+                                    </div>
+                                </td>
+                                <td class="align-middle">
+                                    <img src="../../img/our clients/beneo/Group 814.png" />
+                                </td>
+                            </tr>
+                            <tr class=" fs-12">
+                                <td class="fw-400">287978463</td>
+                                <td class="fw-400" style="color: #14142B;">
+                                    <div class="br-10 p-1 text-center"
+                                        style="background:#B4F32E; height: 26px; width: 67px;">
+                                        <p class="rdt-p-t">Ongoing</p>
+                                    </div>
+                                </td>
+                                <td class="fw-400"><img src="../../img/Responsable/iu.png" height="32px" width="73px">
+                                </td>
+                                <td class="fw-400" style="color: #14142B;">
+                                    <div class="br-10 p-1 text-center"
+                                        style="background:#FFC553; height: 26px; width: 67px;">
+                                        <p class="rdt-p-t">Recurrent</p>
+                                    </div>
+                                </td>
+                                <td scope="row" class="navbar p-0 pt-2">
+                                    <div>
+                                        <img src="../../img/Responsable/1516540693104 1.png" style="border-radius: 50%;"
+                                            width="26" height="26" />
+                                    </div>
+                                    <div class="mr-auto fs-12">
+                                        &nbsp; Christian COLLIN
+                                    </div>
+                                </td>
+                                <td class="fw-400">Z50</td>
+                                <td class="fw-400">+3</td>
+                                <td class="fw-400">Robinet 07</td>
+                                <td scope="row" class="navbar p-0 pt-2">
+                                    <div>
+                                        <img src="../../img/Responsable/Ellipse 3.png" style="border-radius: 50%;"
+                                            width="36" height="36" />
+                                    </div>
+                                    <div class="mr-auto fs-12">
+                                        &nbsp; Philippe Chaussée
+                                    </div>
+                                </td>
+                                <td class="fw-400" style="color: #FFFFFF;">
+                                    <div class="br-10 p-1 text-center"
+                                        style="background:#615EFF; height: 26px; width: 67px;">
+                                        <p class="rdt-p-t"><a href="76.html" style=" color:#FFF;">Afficher</a></p>
+                                    </div>
+                                </td>
+                                <td class="align-middle">
+                                    <img src="../../img/our clients/beneo/Group 814.png" />
+                                </td>
+                            </tr>
+                            <tr class=" fs-12">
+                                <td class="fw-400">287978463</td>
+                                <td class="fw-400" style="color: #14142B;">
+                                    <div class="br-10 p-1 text-center"
+                                        style="background:#FCF319; height: 26px; width: 67px;">
+                                        <p class="rdt-p-t">Pending</p>
+                                    </div>
+                                </td>
+                                <td class="fw-400"><img src="../../img/Responsable/iu.png" height="32px" width="73px">
+                                </td>
+                                <td class="fw-400" style="color: #FFFFFF;">
+                                    <div class="br-10 p-1 text-center"
+                                        style="background:#008CFF; height: 26px; width: 67px;">
+                                        <p class="rdt-p-t">One shot</p>
+                                    </div>
+                                </td>
+                                <td scope="row" class="navbar p-0 pt-2">
+                                    <div>
+                                        <img src="../../img/Responsable/1516540693104 1.png" style="border-radius: 50%;"
+                                            width="26" height="26" />
+                                    </div>
+                                    <div class="mr-auto fs-12">
+                                        &nbsp; Christian COLLIN
+                                    </div>
+                                </td>
+                                <td class="fw-400">Z25</td>
+                                <td class="fw-400">+1</td>
+                                <td class="fw-400">Robinet 02</td>
+                                <td scope="row" class="navbar p-0 pt-2">
+                                    <div>
+                                        <img src="../../img/Responsable/Ellipse 3.png" style="border-radius: 50%;"
+                                            width="36" height="36" />
+                                    </div>
+                                    <div class="mr-auto fs-12">
+                                        &nbsp; Philippe Chaussée
+                                    </div>
+                                </td>
+                                <td class="fw-400" style="color: #FFFFFF;">
+                                    <a href="76.html" style="color:#FFF;">
+                                        <div class="br-10 p-1 text-center"
+                                            style="background:#615EFF; height: 26px; width: 67px;">
+                                            <p class="rdt-p-t">Afficher</p>
+                                        </div>
+                                    </a>
+                                </td>
+                                <td class="align-middle">
+                                    <img src="../../img/our clients/beneo/Group 814.png" />
+                                </td>
+                            </tr>
+                            <tr class=" fs-12">
+                                <td class="fw-400">778495836</td>
+                                <td class="fw-400" style="color: #FFFFFF;">
+                                    <div class="br-10 p-1 text-center"
+                                        style="background:#EF3C3C; height: 26px; width: 67px;">
+                                        Close
+                                    </div>
+                                </td>
+                                <td class="fw-400"><img src="../../img/Responsable/iu.png" height="32px" width="73px">
+                                </td>
+                                <td class="fw-400" style="color: #14142B;">
+                                    <div class="br-10 p-1 text-center"
+                                        style="background:#FFC553; height: 26px; width: 67px;">
+                                        <p class="rdt-p-t">Recurrent</p>
+                                    </div>
+                                </td>
+                                <td scope="row" class="navbar p-0 pt-2">
+                                    <div>
+                                        <img src="../../img/Responsable/1516540693104 1.png" style="border-radius: 50%;"
+                                            width="26" height="26" />
+                                    </div>
+                                    <div class="mr-auto fs-12">
+                                        &nbsp; Christian COLLIN
+                                    </div>
+                                </td>
+                                <td class="fw-400">Z01</td>
+                                <td class="fw-400">+4</td>
+                                <td class="fw-400">Valve 01</td>
+                                <td scope="row" class="navbar p-0 pt-2">
+                                    <div>
+                                        <img src="../../img/Responsable/Ellipse 3.png" style="border-radius: 50%;"
+                                            width="36" height="36" />
+                                    </div>
+                                    <div class="mr-auto fs-12">
+                                        &nbsp; Philippe Chaussée
+                                    </div>
+                                </td>
+                                <td class="fw-400" style="color: #FFFFFF;">
+                                    <div class="br-10 p-1 text-center"
+                                        style="background:#615EFF; height: 26px; width: 67px;">
+                                        <p class="rdt-p-t"><a href="76.html" style=" color:#FFF;">Afficher</a></p>
+                                    </div>
+                                </td>
+                                <td class="align-middle">
+                                    <img src="../../img/our clients/beneo/Group 814.png" />
+                                </td>
+                            </tr>
+                            <tr class=" fs-12">
+                                <td class="fw-400">778495836</td>
+                                <td class="fw-400" style="color: #14142B;">
+                                    <div class="br-10 p-1 text-center"
+                                        style="background:#B4F32E; height: 26px; width: 67px;">
+                                        <p class="rdt-p-t">Ongoing</p>
+                                    </div>
+                                </td>
+                                <td class="fw-400"><img src="../../img/Responsable/iu.png" height="32px" width="73px">
+                                </td>
+                                <td class="fw-400" style="color: #FFFFFF;">
+                                    <div class="br-10 p-1 text-center"
+                                        style="background:#008CFF; height: 26px; width: 67px;">
+                                        <p class="rdt-p-t">One shot</p>
+                                    </div>
+                                </td>
+                                <td scope="row" class="navbar p-0 pt-2">
+                                    <div>
+                                        <img src="../../img/Responsable/1516540693104 1.png" style="border-radius: 50%;"
+                                            width="26" height="26" />
+                                    </div>
+                                    <div class="mr-auto fs-12">
+                                        &nbsp; Christian COLLIN
+                                    </div>
+                                </td>
+                                <td class="fw-400">Z05</td>
+                                <td class="fw-400">+2</td>
+                                <td class="fw-400">Moteur 36</td>
+                                <td scope="row" class="navbar p-0 pt-2">
+                                    <div>
+                                        <img src="../../img/Responsable/Ellipse 3.png" style="border-radius: 50%;"
+                                            width="36" height="36" />
+                                    </div>
+                                    <div class="mr-auto fs-12">
+                                        &nbsp; Philippe Chaussée
+                                    </div>
+                                </td>
+                                <td class="fw-400" style="color: #FFFFFF;">
+                                    <a href="76.html" style="color:#FFF;">
+                                        <div class="br-10 p-1 text-center"
+                                            style="background:#615EFF; height: 26px; width: 67px;">
+                                            <p class="rdt-p-t">Afficher</p>
+                                        </div>
+                                    </a>
+                                </td>
+                                <td class="align-middle">
+                                    <img src="../../img/our clients/beneo/Group 814.png" />
+                                </td>
+                            </tr>
+                            </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+
+
+            <div id="profile">
+
+                <div class="container-fluid">
+
+                    <div class="row fs-14">
+
+                        <div class="col-sm-12 p-0"
+                            style="border-bottom:1px solid rgba(209, 209, 209, 0.5); height: 17px;">
+
+                        </div>
+
+                        <div class="col-sm-3 pt-4" style="border-right: 1px solid rgba(209, 209, 209, 0.5);">
+                            <div class="pb-3" style="display: flex;">
+                                <div class="pt-2"><input class="checkbox checkbox-primary2 float-left" type="checkbox"
+                                        value="" checked></div>
+                                <div class="pl-3"><img class="rdt-set-img" src="../../img/Responsable/pic.png"
+                                        width="37px" height="37px"></div>
+                                <div class=" pl-3 pt-2 fs-15 tc-purple">Donat Mailhot</div>
+                            </div>
+                            <div class="pb-3" style="display: flex;">
+                                <div class="pt-2"><input class="checkbox checkbox-primary2 float-left" type="checkbox"
+                                        value=""></div>
+                                <div class="pl-3"><img class="rdt-set-img" src="../../img/Responsable/pic.png"></div>
+                                <div class=" pl-3 pt-2 fs-15">Bartlett Pomerleau</div>
+                            </div>
+                            <div class="pb-3" style="display: flex;">
+                                <div class="pt-2"><input class="checkbox checkbox-primary2 float-left" type="checkbox"
+                                        value=""></div>
+                                <div class="pl-3"><img class="rdt-set-img" src="../../img/Responsable/pic.png"></div>
+                                <div class=" pl-3 pt-2 fs-15">Thiery Adler</div>
+                            </div>
+
+                        </div>
+
+                        <div class="col-sm-6 pt-4 pl-5">
+                            <div class="fs-17 fw-500">
+                                Edit Profile
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-3 m-3 mt-4">
+                                    <div class="ml-4 img-90"
+                                        style="width: 123px; height: 123px; border-radius: 50%; background-repeat: no-repeat; background-size: 100%; background-image: url('../../img/Responsable/1516540693104\ 2.png'); position: relative;">
+                                        <button class="btn-circle border-0"
+                                            style="background-color: #615EFF; width: 28px; height: 28px; border-radius: 50%; bottom:0px; right:16px; position:absolute;">
+                                            <img src="../../img/our clients/Add Client/Camera.png"
+                                                style="width: 13.12px; height: 11.72px;" />
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <form id="myForm" class="mt-3">
+                                <div class="row">
+                                    <div class="col-sm-6">
+                                        <div class="mb-3">
+                                            <label for="exampleFormControlInput1" class="form-label tc-grey mb-3">First
+                                                name</label>
+                                            <input type="text" class="form-control fs-14 h-35 rdt-pd-inp"
+                                                id="exampleFormControlInput1" value="Christian"
+                                                style="color: #200E32;box-sizing: border-box;border-radius: 8px;background-color:transparent;">
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <div class="mb-3">
+                                            <label for="exampleFormControlInput1" class="form-label tc-grey mb-3">Last
+                                                name</label>
+                                            <input type="text" class="form-control fs-14 h-35 rdt-pd-inp"
+                                                id="exampleFormControlInput1" value="Collin"
+                                                style="color: #200E32; box-sizing: border-box;border-radius: 8px;background-color: transparent;">
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <div class="mb-3">
+                                            <label for="exampleFormControlInput1"
+                                                class="form-label tc-grey mb-3">Acronym</label>
+                                            <input type="text" class="form-control fs-14 h-35 rdt-pd-inp"
+                                                id="exampleFormControlInput1" value="CCN"
+                                                style="color: #200E32; box-sizing: border-box;border-radius: 8px;background-color:transparent;">
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <div class="mb-3">
+                                            <label class="form-label tc-grey mb-3">Date of birth</label>
+                                            <input type="date" class="form-control fs-14 h-35 rdt-pd-inp" value=""
+                                                style="color: #200E32;box-sizing: border-box;border-radius: 8px;background-color:transparent;" />
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6" style="display: flex;">
+                                        <div style="width: 30%;">
+                                            <div class="mb-3">
+                                                <label for="exampleFormControlInput1"
+                                                    class="form-label tc-grey mb-3">Phone</label>
+                                                <select class="form-control bg-transparent fs-14 rdt-pd-sel"
+                                                    style="border-radius: 8px; height:35px; min-width: max-content;">
+                                                    <option>+35</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        &nbsp;&nbsp;&nbsp;&nbsp;
+                                        <div style="width: 100%;">
+                                            <div class="mb-3">
+                                                <label for="exampleFormControlInput1" class="form-label mb-3">
+                                                    &nbsp;</label>
+                                                <input type="text" class="form-control fs-14 h-35 rdt-pd-inp"
+                                                    id="exampleFormControlInput1" value="0 101 01 01"
+                                                    style="color: #200E32; box-sizing: border-box;border-radius: 8px;background-color:transparent;">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <div class="mb-3">
+                                            <label for="exampleFormControlInput1"
+                                                class="form-label tc-grey mb-3">Email</label>
+                                            <input type="email" class="form-control fs-14 h-35 rdt-pd-inp"
+                                                id="exampleFormControlInput1" placeholder="Doant.Mailhot@beneo.com"
+                                                style=" box-sizing: border-box;border-radius: 8px;background-color: transparent;">
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr class="mt-1">
+                                <div class="row">
+                                    <div class="col-sm-4">
+                                        <div class="mb-3">
+                                            <label for="exampleFormControlInput1"
+                                                class="form-label tc-grey mb-3">Company</label>
+                                            <br>
+                                            <select class="form-control bg-transparent fs-14 rdt-pd-sel h-35"
+                                                style="border-radius: 8px;">
+                                                <option>Newelec</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-4 pl-0">
+                                        <div class="mb-3">
+                                            <label for="exampleFormControlInput1"
+                                                class="form-label tc-grey mb-3">Function</label>
+                                            <input type="text" class="form-control fs-14 h-35 rdt-pd-inp"
+                                                id="exampleFormControlInput1" value="Electrician"
+                                                style="color: #200E32; box-sizing: border-box;border-radius: 8px;background-color: transparent;">
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-4 pl-0">
+                                        <div class="mb-3">
+                                            <label for="exampleFormControlInput1"
+                                                class="form-label tc-grey mb-3">Department</label>
+                                            <select class="form-control bg-transparent fs-14 h-35 rdt-pd-sel"
+                                                style="border-radius: 8px;">
+                                                <option>Electrical</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <div class="mb-3">
+                                            <label for="exampleFormControlInput1"
+                                                class="form-label tc-grey mb-3">Role</label>
+                                            <br>
+                                            <select class="form-control bg-transparent rdt-pd-sel fs-14 h-35"
+                                                style="border-radius: 8px;">
+                                                <option>Manager</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-4 pl-0">
+                                        <div class="mb-3">
+                                            <label for="exampleFormControlInput1" class="form-label tc-grey mb-3">Report
+                                                to</label>
+                                            <select class="form-control bg-transparent fs-14 h-35 rdt-pd-sel"
+                                                style="border-radius: 8px;">
+                                                <option>Stephen M.Villato</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-sm-6">
+                                        <div class="mb-3"> <br>
+                                            <button type="submit" class="rdt-bton border-0 set8">Register</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+
+                    </div>
+
+
+                </div>
+            </div>
+
+            <div id="profile1">
+
+                <div class="container-fluid pl-5 pt-4">
+                    <div class="fs-17 fw-500"> Edit Profile </div>
+                    <div class="row">
+                        <div class="col-sm-3 m-3 mt-4">
+                            <div class="ml-4 img-90"
+                                style="width: 123px; height: 123px; border-radius: 50%; background-repeat: no-repeat; background-size: 100%; background-image: url('../../img/Responsable/Group\ 2631.png'); position: relative;">
+                                <button class="btn-circle border-0"
+                                    style="background-color: #615EFF; width: 28px; height: 28px; border-radius: 50%; bottom:0px; right:16px; position:absolute;">
+                                    <img src="../../img/our clients/Add Client/Camera.png"
+                                        style="width: 13.12px; height: 11.72px;" />
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row fs-14">
+                        <div class="col-sm-6">
+                            <form id="myForm" class="mt-3">
+                                <div class="row">
+                                    <div class="col-sm-6">
+                                        <div class="mb-3">
+                                            <label for="exampleFormControlInput1" class="form-label tc-grey mb-3">First
+                                                name</label>
+                                            <input type="text" class="form-control fs-14 h-35 rdt-pd-inp"
+                                                id="exampleFormControlInput1" value="Christian" style="color: #200E32;
+                  box-sizing: border-box;
+                  border-radius: 8px;
+                  background-color:transparent;">
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <div class="mb-3">
+                                            <label for="exampleFormControlInput1" class="form-label tc-grey mb-3">Last
+                                                name</label>
+                                            <input type="text" class="form-control fs-14 h-35 rdt-pd-inp"
+                                                id="exampleFormControlInput1" value="Collin" style="color: #200E32; 
+                  box-sizing: border-box;
+                  border-radius: 8px;
+                  background-color: transparent;">
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <div class="mb-3">
+                                            <label for="exampleFormControlInput1"
+                                                class="form-label tc-grey mb-3">Acronym</label>
+                                            <input type="text" class="form-control fs-14 h-35 rdt-pd-inp"
+                                                id="exampleFormControlInput1" value="CCN" style="color: #200E32; 
+                  box-sizing: border-box;
+                  border-radius: 8px;
+                  background-color:transparent;">
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <div class="mb-3">
+                                            <label class="form-label tc-grey mb-3">Date of birth</label>
+                                            <input type="date" class="form-control fs-14 h-35 rdt-pd-inp" value=""
+                                                style="color: #200E32;
+                  box-sizing: border-box;
+                  border-radius: 8px;
+                  background-color:transparent;" />
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6" style="display: flex;">
+                                        <div style="width: 30%;">
+                                            <div class="mb-3">
+                                                <label for="exampleFormControlInput1"
+                                                    class="form-label tc-grey mb-3">Phone</label>
+                                                <select class="form-control bg-transparent fs-14 rdt-pd-sel"
+                                                    style="border-radius: 8px; height:35px; min-width: max-content;">
+                                                    <option>+35</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        &nbsp;&nbsp;&nbsp;&nbsp;
+                                        <div style="width: 100%;">
+                                            <div class="mb-3">
+                                                <label for="exampleFormControlInput1" class="form-label mb-3">
+                                                    &nbsp;</label>
+                                                <input type="text" class="form-control fs-14 h-35 rdt-pd-inp"
+                                                    id="exampleFormControlInput1" value="0 101 01 01" style="color: #200E32; 
+                    box-sizing: border-box;
+                    border-radius: 8px;
+                    background-color:transparent;">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <div class="mb-3">
+                                            <label for="exampleFormControlInput1"
+                                                class="form-label tc-grey mb-3">Email</label>
+                                            <input type="email" class="form-control fs-14 h-35 rdt-pd-inp"
+                                                id="exampleFormControlInput1" placeholder="Doant.Mailhot@beneo.com"
+                                                style=" 
+                  box-sizing: border-box;
+                  border-radius: 8px;
+                  background-color: transparent;">
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr class="mt-1">
+                                <div class="row">
+                                    <div class="col-sm-4">
+                                        <div class="mb-3">
+                                            <label for="exampleFormControlInput1"
+                                                class="form-label tc-grey mb-3">Company</label>
+                                            <br>
+                                            <select class="form-control bg-transparent fs-14 rdt-pd-sel h-35"
+                                                style="border-radius: 8px;">
+                                                <option>Newelec</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-4 pl-0">
+                                        <div class="mb-3">
+                                            <label for="exampleFormControlInput1"
+                                                class="form-label tc-grey mb-3">Function</label>
+                                            <input type="text" class="form-control fs-14 h-35 rdt-pd-inp"
+                                                id="exampleFormControlInput1" value="Electrician" style="color: #200E32; 
+                  box-sizing: border-box;
+                  border-radius: 8px;
+                  background-color: transparent;">
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-4 pl-0">
+                                        <div class="mb-3">
+                                            <label for="exampleFormControlInput1"
+                                                class="form-label tc-grey mb-3">Department</label>
+                                            <select class="form-control bg-transparent fs-14 h-35 rdt-pd-sel"
+                                                style="border-radius: 8px;">
+                                                <option>Electrical</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <div class="mb-3">
+                                            <label for="exampleFormControlInput1"
+                                                class="form-label tc-grey mb-3">Role</label>
+                                            <br>
+                                            <select class="form-control bg-transparent rdt-pd-sel fs-14 h-35"
+                                                style="border-radius: 8px;">
+                                                <option>Manager</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-4 pl-0">
+                                        <div class="mb-3">
+                                            <label for="exampleFormControlInput1" class="form-label tc-grey mb-3">Report
+                                                to</label>
+                                            <select class="form-control bg-transparent fs-14 h-35 rdt-pd-sel"
+                                                style="border-radius: 8px;">
+                                                <option>Stephen M.Villato</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                                <br>
+                                <p class="fs-17 fw-400" style="color: #200E32;">Change your password</p>
+                                <div class="row">
+                                    <div class="col-sm-6">
+                                        <div class="mb-3">
+                                            <label for="exampleFormControlInput1"
+                                                class="form-label tc-grey mb-3">Current Password</label>
+                                            <input name="pw" class="form-control stylishPassword fs-14 h-35 rdt-pd-inp"
+                                                type="text" style="color: #200E32; 
+                  box-sizing: border-box;
+                  border-radius: 8px;
+                  background-color:transparent;
+                  width:100%;">
+                                            <input class="hiddenPassword" type="hidden">
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6"> </div>
+                                    <div class="col-sm-6">
+                                        <div class="mb-3">
+                                            <label for="exampleFormControlInput1" class="form-label tc-grey mb-3">New
+                                                Password</label>
+                                            <input name="pw" class="form-control stylishPassword fs-14 h-35 rdt-pd-inp"
+                                                type="text" style="color: #200E32;
+                  box-sizing: border-box;
+                  border-radius: 8px;
+                  background-color:transparent;
+                  width:100%;">
+                                            <input class="hiddenPassword" type="hidden">
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6"> </div>
+                                    <div class="col-sm-6">
+                                        <div class="mb-3">
+                                            <label for="exampleFormControlInput1" class="form-label tc-grey mb-3">Repeat
+                                                your password</label>
+                                            <input name="pw" class="form-control stylishPassword fs-14 h-35 rdt-pd-inp"
+                                                type="text" style="color: #200E32;
+                  box-sizing: border-box;
+                  border-radius: 8px;
+                  background-color:transparent;
+                  width:100%;">
+                                            <input class="hiddenPassword" type="hidden">
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6"> </div>
+                                    <div class="col-sm-6">
+                                        <div class="mb-3"> <br>
+                                            <button type="submit" class="rdt-bton border-0 set8">Register</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="col-sm-6 mt-3">
+                            <label for="exampleFormControlInput1"
+                                class="form-label ml-3 tc-grey  mb-3">Signature</label>
+                            <div class="container-fluid">
+                                <div class="rdt-drag-drop1 mr-4 navbar p-0 set3" style="height: 180px;">
+                                    <div class="mx-auto my-auto text-center">
+                                        <img src="../../img/Responsable/Vector.png" class="mt-3">
+                                        <br />
+                                        <div class="fs-12 file-msg mb-3" style="color: #B5B5B5; line-height: 16px;">Drag
+                                            and drop your signature here
+                                            <br>
+                                            Or<a href="#"> browse files</a>
+                                        </div>
+                                        <input class="rdt-drag-file-input" type="file" multiple>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-sm-6 ml-3">
+                                    <div class="pt-4">
+                                        <div class="rdt-drag-drop2 text-center p-2" style="height: 127px; width:90%;">
+                                            <input class="checkbox checkbox-primary2 float-left" type="checkbox"
+                                                value="" checked>
+                                            <br />
+                                            <div
+                                                style="height: 80%; width: 100%; display: flex; justify-content: center; align-items: center;">
+                                                <img src="../../img/Responsable/Parmentier.png" class="img-fluid"
+                                                    width="80%">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row ml-3 mt-4">
+                                <label for="exampleFormControlInput1" class="form-label tc-grey mb-3">CODE PIN</label>
+                                <div class="col-sm-12 p-0">
+                                    <div class="row p-0 m-0">
+                                        <div class="col-sm-4 pl-0">
+                                            <input name="pw" class="stylishPassword form-control fs-14 rdt-pd-inp"
+                                                type="text" style="color: #200E32; 
+                              box-sizing: border-box;
+                              border-radius: 8px;
+                              background-color:transparent;
+                                height:40px; width:100%;">
+                                            <input class="hiddenPassword" type="hidden">
+                                        </div>
+                                        <div class="col-sm-4 pl-0">
+                                            <button class="btn rdt-info rdt-pd-inp fs-11" type="button">SHOW PIN
+                                                CODE</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.2.0/js/bootstrap.min.js"
+        crossorigin="anonymous"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+    <!--Date Picker-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.bundle.min.js"></script>
+    <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/js/bootstrap-datepicker.min.js"></script>
+
+    <!--Date Picker End-->
+
+    <script src="../../js/customJS.js"></script>
+
+
+
+
+</body>
+
+</html>
